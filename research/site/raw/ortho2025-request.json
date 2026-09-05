@@ -1,0 +1,12 @@
+{
+  "url": "https://geodirektext.jarfalla.se/maps/Geodata/ortofoto_senaste?token=7281cfac83454b698f8a743deaa0d2cc&SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&SRS=EPSG%3A3011&LAYERS=ortofoto_senaste&FORMAT=image%2Fpng&BBOX=138650%2C6589520%2C138780%2C6589640&WIDTH=1560&HEIGHT=1440",
+  "bbox": [
+    138650,
+    6589520,
+    138780,
+    6589640
+  ],
+  "crs": "EPSG:3011",
+  "width": 1560,
+  "height": 1440
+}

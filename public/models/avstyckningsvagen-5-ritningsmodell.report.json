@@ -1,0 +1,103 @@
+{
+  "generatedUtc": "2026-09-05T16:01:36.816Z",
+  "artifact": "public/models/avstyckningsvagen-5-ritningsmodell.glb",
+  "sha256": "142543af6ebb3981a15871230fb7eb35358ef0aa5b688e6a4d1268846ad087e7",
+  "bytes": 1581336,
+  "glbVersion": 2,
+  "provenance": {
+    "title": "Avstyckningsvägen 5",
+    "modelType": "procedural_drawing_reconstruction",
+    "description": "Ritningsmodell från arkivhandlingar och visuella fasadobservationer. Inte fotogrammetri eller en verifierad nutida inmätning.",
+    "photogrammetry": false,
+    "surveyVerified": false,
+    "units": "metres",
+    "metersPerUnit": 1,
+    "upAxis": "Y",
+    "northCalibrated": false,
+    "groundFloorElevationM": 0,
+    "footprintM": {
+      "width": 8.15,
+      "depth": 10.65
+    },
+    "sourceCode": "src/house.js",
+    "sourceSha256": "9c3075fa11c7994fa7e7327a7c0b2e961446af582cc7847317149932a292cea3",
+    "sourceDescription": "Fastighetsspecifika planer och fasader inkomna 12 oktober 2007. Yttermått och rumshöjder ur originalsektion 1971. Nutida invändig planlösning saknar verifiering.",
+    "assumptions": [
+      "Bjälklag 0,25 m tolkat",
+      "Innerväggar 0,12 m illustrativa",
+      "Taklutning cirka 43° avläst ur sektion",
+      "Öppningslägen rastertolkade",
+      "Kvartssvängd trappgeometri tolkad; stegantal och mått behöver uppmätas",
+      "Förstukvistens mått fototolkade",
+      "Riktning mot sant norr inte kalibrerad"
+    ]
+  },
+  "sourceMeshes": 717,
+  "sourceVertices": 21388,
+  "gltfMeshes": 717,
+  "gltfNodes": 805,
+  "gltfMaterials": 35,
+  "gltfImages": 0,
+  "checkedFloatValues": 171104,
+  "nonfiniteValues": 0,
+  "units": "metres",
+  "boundsM": {
+    "min": [
+      -5.550000000000001,
+      -2.6500000029802324,
+      -5.779999998658896
+    ],
+    "max": [
+      4.40500020980835,
+      8.665000000149012,
+      5.822573435866741
+    ],
+    "size": [
+      9.95500020980835,
+      11.315000003129246,
+      11.602573434525638
+    ]
+  },
+  "groups": [
+    {
+      "id": "roof",
+      "name": "Tak",
+      "children": 65,
+      "elevationM": null
+    },
+    {
+      "id": "basement",
+      "name": "Källarplan",
+      "children": 27,
+      "elevationM": -2.45
+    },
+    {
+      "id": "ground",
+      "name": "Bottenplan",
+      "children": 106,
+      "elevationM": 0
+    },
+    {
+      "id": "upper",
+      "name": "Överplan",
+      "children": 51,
+      "elevationM": 2.65
+    }
+  ],
+  "checks": [
+    "GLB header and length",
+    "JSON and BIN chunks",
+    "Embedded buffers",
+    "Source and encoded numeric values finite",
+    "Meter/Y-up metadata",
+    "Three.js GLTFLoader roundtrip",
+    "World bounds preserved within 0.1 mm",
+    "Three floors and independent roof preserved"
+  ],
+  "limitations": [
+    "Procedural drawing reconstruction, not photogrammetry",
+    "Current interior and architectural survey accuracy unverified",
+    "Window framing, fittings and some construction details are illustrative",
+    "Cutting and exploded-view controls belong to the viewer and are not GLB animations"
+  ]
+}

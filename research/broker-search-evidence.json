@@ -1,0 +1,17 @@
+{
+  "checked": "2026-09-05",
+  "queries": [
+    {
+      "url": "https://www.husmanhagberg.se/sok/?q=Avstyckningsv%C3%A4gen%205",
+      "searchWord": "Avstyckningsvägen 5",
+      "matchedPropertyCount": 0
+    },
+    {
+      "url": "https://www.husmanhagberg.se/sok/?q=Avstyckningsv%C3%A4gen",
+      "searchWord": "Avstyckningsvägen",
+      "matchedPropertyAddresses": [
+        "Avstyckningsvägen 74"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "avstyckningsvagen-5",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Interaktiv hus- och terrängmodell av Avstyckningsvägen 5, byggd med Three.js och Vite.",
+  "engines": { "node": ">=22.12.0" },
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "test": "node --test tests/*.test.mjs",
+    "build": "vite build",
+    "check:dist": "node scripts/check-static-build.mjs",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": { "three": "^0.180.0" },
+  "devDependencies": { "vite": "^7.1.5" }
+}

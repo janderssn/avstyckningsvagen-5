@@ -1,0 +1,43 @@
+{
+  "status": "photo-interpreted",
+  "units": "metres in house-local X/Z; Y relative to ground-floor finished floor",
+  "referenceGroundFloorRH2000": 20.10,
+  "evidence": "research/site/driveway-evidence.md",
+  "description": "Utschaktad garageinfart med planteringsmur till vänster och stödmur med vita brädor till höger. Former och mått är tolkade från foton, inte inmätta.",
+  "surfacePatches": [
+    {
+      "id": "garage-apron",
+      "label": "Utschaktad garageinfart",
+      "polygon": [[0.15,5.325],[4.075,5.325],[9.2,5.55],[11.75,8.932672],[10.800088,9.215341],[4.76981,10.452619],[0.15,11.010032]],
+      "plane": {"x0":2.505,"z0":5.325,"y0":-2.49,"dx":0,"dz":-0.1},
+      "blendEdges": [3,4,5],
+      "blendWidth": 0.8,
+      "color": "#666760"
+    }
+  ],
+  "retainingWalls": [
+    {
+      "id": "driveway-left-wall",
+      "label": "Låg blockmur vid planteringen",
+      "surfaceId": "garage-apron",
+      "path": [[0.15,5.325],[0.15,8.5],[0.15,11.010032],[-0.657201,11.087427],[-4.15,11.21]],
+      "topHeights": [-1.9,-2.38,-2.57,-2.57,-2.54],
+      "width": 0.22,
+      "capThickness": 0.055,
+      "backfillWidth": 0.65,
+      "color": "#89867b"
+    },
+    {
+      "id": "driveway-right-wall",
+      "label": "Stödmur bakom garageinfarten",
+      "surfaceId": "garage-apron",
+      "path": [[4.075,5.325],[9.2,5.55],[11.75,8.932672]],
+      "topHeights": [-1.78,-1.77,-2.66],
+      "width": 0.22,
+      "capThickness": 0.055,
+      "backfillWidth": 0.8,
+      "color": "#92928a",
+      "boards": {"count":3,"height":0.11,"gap":0.05,"postSpacing":1.8,"color":"#e6e7dd"}
+    }
+  ]
+}

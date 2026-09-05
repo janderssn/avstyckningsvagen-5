@@ -1,0 +1,33 @@
+{
+  "captureDate": "2026-09-05",
+  "imageryDate": "2022-10",
+  "source": "Google Street View; visual study, experimental sparse reconstruction only",
+  "images": [
+    {
+      "file": "google-streetview-2022-number5-front.png",
+      "panorama_id": "KZQYCThYtHfJkYmDeemB1g",
+      "lat": 59.4210658,
+      "lon": 17.800986,
+      "yaw": 153.01,
+      "description": "October2022, target5physicalnumbervisible; roofpartlyoutsideframe; foregroundtree occludesleft"
+    },
+    {
+      "file": "google-streetview-2022-position2.png",
+      "panorama_id": "kaMdOMVcZiLr7BW5-olmdw",
+      "lat": 59.421003,
+      "lon": 17.8008685,
+      "yaw": 90.72,
+      "url": "https://www.google.com/maps/@59.421003,17.8008685,20a,90y,90.72h,97.06t/data=!3m7!1e1!3m5!1skaMdOMVcZiLr7BW5-olmdw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-7.0558768480974265%26panoid%3DkaMdOMVcZiLr7BW5-olmdw%26yaw%3D90.72117496703837!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D",
+      "description": "October2022; foregroundtree andbushes; wholevisible streetfacade androof"
+    },
+    {
+      "file": "google-streetview-2022-position3.png",
+      "panorama_id": "jpkHP8P6X6jBUGJ7ZG0uOw",
+      "lat": 59.4211226,
+      "lon": 17.8011143,
+      "yaw": 170.4,
+      "url": "https://www.google.com/maps/@59.4211226,17.8011143,19a,75y,170.4h,97.06t/data=!3m7!1e1!3m5!1sjpkHP8P6X6jBUGJ7ZG0uOw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-7.0558768480974265%26panoid%3DjpkHP8P6X6jBUGJ7ZG0uOw%26yaw%3D170.402675144347!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D",
+      "description": "October2022; target5center entrancegable andstreetfacade treeobscured; neighbor3left excluded"
+    }
+  ]
+}

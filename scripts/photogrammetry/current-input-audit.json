@@ -1,0 +1,56 @@
+{
+  "generated_utc": "2026-09-05T15:23:42.295291+00:00",
+  "dataset": "Avstyckningsvägen 5 — three distinct October 2022 Street View positions",
+  "coverage_declared": "Street facade and part of entrance gable/roof; rear and interior absent. Target-only masks exclude neighbor buildings.",
+  "status": "ready_for_sfm_attempt",
+  "image_count": 3,
+  "accepted_count": 3,
+  "distinct_documented_positions": 3,
+  "images": [
+    {
+      "file": "/tmp/avstyckningsv5/research/captures/google-streetview-2022-number5-front.png",
+      "accepted": true,
+      "reasons": [],
+      "size": [
+        2560,
+        1231
+      ],
+      "sha256": "4bbc30e2f1708bf20445fbc6a324880faae20a7f9fcbd2e5a5a3e8710189ba07"
+    },
+    {
+      "file": "/tmp/avstyckningsv5/research/captures/google-streetview-2022-position2.png",
+      "accepted": true,
+      "reasons": [],
+      "size": [
+        2560,
+        1231
+      ],
+      "sha256": "6471c428ad1c595846a46a6d254d3933308cb1fbef4deee066c3c7d799c3f7c9"
+    },
+    {
+      "file": "/tmp/avstyckningsv5/research/captures/google-streetview-2022-position3.png",
+      "accepted": true,
+      "reasons": [],
+      "size": [
+        2560,
+        1231
+      ],
+      "sha256": "9c70dae6a88e1f9dbdb4341e06348f278ef82badf2bfedbeb9ebc69ecae703cd"
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "google-streetview-2022-number5-front.png: stitched Street View imagery and moving foliage can introduce non-pinhole artifacts; experimental facade reference only",
+    "google-streetview-2022-position2.png: stitched Street View imagery and moving foliage can introduce non-pinhole artifacts; experimental facade reference only",
+    "google-streetview-2022-position3.png: stitched Street View imagery and moving foliage can introduce non-pinhole artifacts; experimental facade reference only",
+    "Three positions only permit an experiment; they do not establish complete building coverage or architectural accuracy"
+  ],
+  "reconstruction_completed": false,
+  "architectural_accuracy_verified": false,
+  "triangulated_points": 0,
+  "limitations": [
+    "Metadata assertions and duplicate checks do not prove true baseline; estimated poses and triangulation must be checked",
+    "Interior and occluded surfaces cannot be recovered without photographs",
+    "8.15 m is an archive plan dimension, not a current measured control distance"
+  ]
+}

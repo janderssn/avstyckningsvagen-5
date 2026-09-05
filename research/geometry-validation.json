@@ -1,0 +1,63 @@
+{
+  "checkedAt": "2026-09-05T16:00:35.153Z",
+  "meshes": 717,
+  "rooms": 18,
+  "floors": [
+    {
+      "id": "basement",
+      "elevation": -2.45,
+      "clearHeight": 2.2
+    },
+    {
+      "id": "ground",
+      "elevation": 0,
+      "clearHeight": 2.4
+    },
+    {
+      "id": "upper",
+      "elevation": 2.65,
+      "clearHeight": 2.4
+    }
+  ],
+  "outerWalls": {
+    "width": 8.150000011920932,
+    "depth": 10.650000011920929
+  },
+  "invalidVertexCoordinates": 0,
+  "missingSourceImages": [],
+  "sourceAudit": {
+    "upperCeilingUnderside": 5.0500000008940695,
+    "upperClearHeight": 2.4000000008940696,
+    "stairs": [
+      {
+        "name": "Trappa till bottenplan · andra lopp",
+        "highestTread": 2.549754185565689e-9
+      },
+      {
+        "name": "Trappa till överplan · andra lopp",
+        "highestTread": 2.650000001311302
+      }
+    ],
+    "internalDoors": [
+      {
+        "name": "Hall och trappa mot vind · dörr",
+        "present": true
+      },
+      {
+        "name": "Kök mot matrum · dörr",
+        "present": true
+      },
+      {
+        "name": "Källartrappa · inre entré · dörr",
+        "present": true
+      },
+      {
+        "name": "Källartrappa · inre dörr · dörr",
+        "present": true
+      }
+    ],
+    "unsupportedBathtubs": [],
+    "basementExteriorDoorRemoved": true
+  },
+  "notes": "Checks implementation and selected drawing comparisons only, not current physical building."
+}

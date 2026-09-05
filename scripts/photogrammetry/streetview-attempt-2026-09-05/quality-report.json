@@ -1,0 +1,106 @@
+{
+  "generated_utc": "2026-09-05T15:23:00.500286+00:00",
+  "dataset": "Avstyckningsvägen 5 — three distinct October 2022 Street View positions",
+  "coverage_declared": "Street facade and part of entrance gable/roof; rear and interior absent. Target-only masks exclude neighbor buildings.",
+  "status": "sfm_failed_no_reconstruction",
+  "image_count": 3,
+  "accepted_count": 3,
+  "distinct_documented_positions": 3,
+  "images": [
+    {
+      "file": "/tmp/avstyckningsv5/research/captures/google-streetview-2022-number5-front.png",
+      "accepted": true,
+      "reasons": [],
+      "size": [
+        2560,
+        1231
+      ],
+      "sha256": "4bbc30e2f1708bf20445fbc6a324880faae20a7f9fcbd2e5a5a3e8710189ba07"
+    },
+    {
+      "file": "/tmp/avstyckningsv5/research/captures/google-streetview-2022-position2.png",
+      "accepted": true,
+      "reasons": [],
+      "size": [
+        2560,
+        1231
+      ],
+      "sha256": "6471c428ad1c595846a46a6d254d3933308cb1fbef4deee066c3c7d799c3f7c9"
+    },
+    {
+      "file": "/tmp/avstyckningsv5/research/captures/google-streetview-2022-position3.png",
+      "accepted": true,
+      "reasons": [],
+      "size": [
+        2560,
+        1231
+      ],
+      "sha256": "9c70dae6a88e1f9dbdb4341e06348f278ef82badf2bfedbeb9ebc69ecae703cd"
+    }
+  ],
+  "errors": [
+    "COLMAP could not initialize a valid sparse model; do not infer 3D shape from matches alone"
+  ],
+  "warnings": [
+    "google-streetview-2022-number5-front.png: stitched Street View imagery and moving foliage can introduce non-pinhole artifacts; experimental facade reference only",
+    "google-streetview-2022-position2.png: stitched Street View imagery and moving foliage can introduce non-pinhole artifacts; experimental facade reference only",
+    "google-streetview-2022-position3.png: stitched Street View imagery and moving foliage can introduce non-pinhole artifacts; experimental facade reference only",
+    "Three positions only permit an experiment; they do not establish complete building coverage or architectural accuracy"
+  ],
+  "reconstruction_completed": false,
+  "architectural_accuracy_verified": false,
+  "triangulated_points": 0,
+  "limitations": [
+    "Metadata assertions and duplicate checks do not prove true baseline; estimated poses and triangulation must be checked",
+    "Interior and occluded surfaces cannot be recovered without photographs",
+    "8.15 m is an archive plan dimension, not a current measured control distance"
+  ],
+  "engine": {
+    "pycolmap": "3.13.0",
+    "device": "cpu",
+    "cuda_available": false
+  },
+  "matching": {
+    "features": [
+      {
+        "image": "0000_google-streetview-2022-number5-front.png",
+        "features": 724
+      },
+      {
+        "image": "0001_google-streetview-2022-position2.png",
+        "features": 360
+      },
+      {
+        "image": "0002_google-streetview-2022-position3.png",
+        "features": 265
+      }
+    ],
+    "verified_pairs": [
+      {
+        "images": [
+          "0000_google-streetview-2022-number5-front.png",
+          "0001_google-streetview-2022-position2.png"
+        ],
+        "verified_matches": 0,
+        "geometry_config": 0
+      },
+      {
+        "images": [
+          "0000_google-streetview-2022-number5-front.png",
+          "0002_google-streetview-2022-position3.png"
+        ],
+        "verified_matches": 0,
+        "geometry_config": 0
+      },
+      {
+        "images": [
+          "0001_google-streetview-2022-position2.png",
+          "0002_google-streetview-2022-position3.png"
+        ],
+        "verified_matches": 0,
+        "geometry_config": 0
+      }
+    ]
+  },
+  "components": []
+}

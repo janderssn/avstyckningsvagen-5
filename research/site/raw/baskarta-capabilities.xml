@@ -1,0 +1,981 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE WMT_MS_Capabilities SYSTEM "http://schemas.opengis.net/wms/1.1.1/WMS_MS_Capabilities.dtd"[]>
+<WMT_MS_Capabilities version="1.1.1">
+ <Service>
+  <Name>WMS</Name>
+  <Title>Baskarta färg</Title>
+  <Abstract><![CDATA[Järfälla kommuns baskarta i färg. Optimerad för webbvisning och hög hastighet. Använd med WMTS i första hand och WMS i andra hand.]]></Abstract>
+  <KeywordList>
+   <Keyword vocabulary="ISO">infoMapAccessService</Keyword>
+  </KeywordList>
+  <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+  <ContactInformation>
+   <ContactElectronicMailAddress>geodata@jarfalla.se</ContactElectronicMailAddress>
+  </ContactInformation>
+  <Fees>conditions unknown</Fees>
+  <AccessConstraints>None</AccessConstraints>
+ </Service>
+ <Capability>
+  <Request>
+   <GetCapabilities>
+    <Format>application/vnd.ogc.wms_xml</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+      </Get>
+     </HTTP>
+    </DCPType>
+   </GetCapabilities>
+   <GetMap>
+    <Format>image/jpeg</Format>
+    <Format>image/png</Format>
+    <Format>image/png; mode=16bit</Format>
+    <Format>image/png; mode=8bit</Format>
+    <Format>image/png; mode=1bit</Format>
+    <Format>application/dxf</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+      </Get>
+     </HTTP>
+    </DCPType>
+   </GetMap>
+   <GetFeatureInfo>
+    <Format>text/plain</Format>
+    <Format>text/html</Format>
+    <Format>text/xml</Format>
+    <Format>application/vnd.ogc.gml</Format>
+    <Format>application/vnd.ogc.gml/3.1.1</Format>
+    <Format>application/json</Format>
+    <Format>application/geo+json</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+      </Get>
+     </HTTP>
+    </DCPType>
+   </GetFeatureInfo>
+   <GetLegendGraphic>
+    <Format>image/jpeg</Format>
+    <Format>image/png</Format>
+    <Format>application/json</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+      </Get>
+     </HTTP>
+    </DCPType>
+   </GetLegendGraphic>
+   <DescribeLayer>
+    <Format>text/xml</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+      </Get>
+     </HTTP>
+    </DCPType>
+   </DescribeLayer>
+   <GetStyles>
+    <Format>text/xml</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+      </Get>
+     </HTTP>
+    </DCPType>
+   </GetStyles>
+  </Request>
+  <Exception>
+   <Format>application/vnd.ogc.se_xml</Format>
+  </Exception>
+  <Layer queryable="1">
+   <Name>baskarta_farg</Name>
+   <Title>Baskarta färg</Title>
+   <Abstract><![CDATA[Järfälla kommuns baskarta i färg. Optimerad för webbvisning och hög hastighet. Använd med WMTS i första hand och WMS i andra hand.]]></Abstract>
+   <KeywordList>
+    <Keyword vocabulary="ISO">infoMapAccessService</Keyword>
+   </KeywordList>
+   <SRS>EPSG:3011</SRS>
+   <LatLonBoundingBox miny="59.359587" maxx="17.924694" maxy="59.527241" minx="17.710254" />
+   <BoundingBox miny="6582762" SRS="EPSG:3011" maxx="145717" maxy="6601406" minx="133602" />
+   <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Layer queryable="1">
+    <Name>baskarta_farg</Name>
+    <Title>baskarta_farg</Title>
+    <SRS>EPSG:3011</SRS>
+    <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+    <BoundingBox miny="6582762" SRS="EPSG:3011" maxx="145717" maxy="6601406" minx="133602" />
+    <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Layer queryable="1">
+     <Name>DRK_Fastighetgranspunkt_p</Name>
+     <Title>TD22.2</Title>
+     <SRS>EPSG:3011</SRS>
+     <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+     <BoundingBox miny="6585133.5" SRS="EPSG:3011" maxx="144179.985" maxy="6599326.5" minx="136467.359" />
+     <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Layer queryable="1">
+      <Name>td22.2_publ_rk_fastighetgranspunkt_p</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585133.5" SRS="EPSG:3011" maxx="144179.985" maxy="6599326.5" minx="136467.359" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_rk_fastighetgranspunkt_p&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+      <ScaleHint min="0" max="1.34712" />
+     </Layer>
+    </Layer>
+    <Layer queryable="1">
+     <Name>DRK_Fastighetsgrans_l</Name>
+     <Title>TD22.2</Title>
+     <SRS>EPSG:3011</SRS>
+     <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+     <BoundingBox miny="6585133.5" SRS="EPSG:3011" maxx="144259.422" maxy="6599377" minx="134791.156" />
+     <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Layer queryable="1">
+      <Name>td22.2_publ_rk_fastighetgrans_l</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585133.5" SRS="EPSG:3011" maxx="144259.422" maxy="6599377" minx="134791.156" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_rk_fastighetgrans_l&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+    </Layer>
+    <Layer queryable="1">
+     <Name>DRK_3DFastighet_y_p</Name>
+     <Title>TD22.2</Title>
+     <SRS>EPSG:3011</SRS>
+     <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+     <BoundingBox miny="6587790" SRS="EPSG:3011" maxx="144765.5" maxy="6593332.5" minx="138761" />
+     <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Layer queryable="1">
+      <Name>td22.2_publ_rk_3dfastighet_y</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6587790" SRS="EPSG:3011" maxx="144765.5" maxy="6593332.5" minx="138761" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_rk_3dfastighet_y&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+     <Layer queryable="1">
+      <Name>td22.2_publ_rk_3dfastighetid_p</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6587848" SRS="EPSG:3011" maxx="144250" maxy="6593326.5" minx="138769.578" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_rk_3dfastighetid_p&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+     <Layer queryable="1">
+      <Name>td22.2_publ_rk_3dfastighetid_p_lbl_block_enhet_omr_400</Name>
+      <Title>TD22.2 (lbl_block_enhet_omr)</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6587848" SRS="EPSG:3011" maxx="144250.11" maxy="6593326.5" minx="138769.578" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_rk_3dfastighetid_p_lbl_block_enhet_omr_400&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+    </Layer>
+    <Layer queryable="1">
+     <Name>DRK_Fastighetadmtext_p</Name>
+     <Title>TD22.2</Title>
+     <SRS>EPSG:3011</SRS>
+     <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+     <BoundingBox miny="6585148.5" SRS="EPSG:3011" maxx="143748.672" maxy="6599142.5" minx="135213.968" />
+     <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Layer queryable="1">
+      <Name>td22.2_publ_rk_fastighetid_p_exkl_oid</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585148.5" SRS="EPSG:3011" maxx="143748.579" maxy="6599020.5" minx="135850.39" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_rk_fastighetid_p_exkl_oid&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+     <Layer queryable="1">
+      <Name>td22.2_publ_rk_fastighetid_p_exkl_oid_lbl_block_enhet_omr_388</Name>
+      <Title>TD22.2 (lbl_block_enhet_omr)</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585148.5" SRS="EPSG:3011" maxx="143748.672" maxy="6599020.5" minx="135850.39" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_rk_fastighetid_p_exkl_oid_lbl_block_enhet_omr_388&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+     <Layer queryable="1">
+      <Name>td22.2_publ_rk_fastighetadmtext_p_traktnamn</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6586750.5" SRS="EPSG:3011" maxx="143308.235" maxy="6599142.5" minx="135213.968" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_rk_fastighetadmtext_p_traktnamn&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+     <Layer queryable="1">
+      <Name>td22.2_publ_rk_fastighetadmtext_p_traktnamn_rk_text_389</Name>
+      <Title>TD22.2 (rk_text)</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6586750.5" SRS="EPSG:3011" maxx="143308.344" maxy="6599142.5" minx="135213.968" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_rk_fastighetadmtext_p_traktnamn_rk_text_389&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+    </Layer>
+    <Layer queryable="1">
+     <Name>BAL_Adressplats_p</Name>
+     <Title>TD22.2</Title>
+     <SRS>EPSG:3011</SRS>
+     <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+     <BoundingBox miny="6582762" SRS="EPSG:3011" maxx="145717" maxy="6601406" minx="133602" />
+     <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Layer queryable="1">
+      <Name>td22.2_publ_bal_adressplats_p</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585155" SRS="EPSG:3011" maxx="143966.829" maxy="6598993.5" minx="135828.984" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_bal_adressplats_p&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+     <Layer queryable="1">
+      <Name>td22.2_publ_bal_adressplats_p_lbl_nummer_bokstav_390</Name>
+      <Title>TD22.2 (lbl_nummer_bokstav)</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585155" SRS="EPSG:3011" maxx="143966.938" maxy="6598993.5" minx="135828.984" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_bal_adressplats_p_lbl_nummer_bokstav_390&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+     <Layer queryable="1">
+      <Name>td22.2_publ_td_bal_adressplats_p</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="59.359587" maxx="17.924694" maxy="59.527241" minx="17.710254" />
+      <BoundingBox miny="6582762" SRS="EPSG:3011" maxx="145717" maxy="6601406" minx="133602" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_td_bal_adressplats_p&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+     <Layer queryable="1">
+      <Name>td22.2_publ_td_bal_adressplats_p_td_notering_text_1_391</Name>
+      <Title>TD22.2 (td_notering_text_1)</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="59.359587" maxx="17.924694" maxy="59.527241" minx="17.710254" />
+      <BoundingBox miny="6582762" SRS="EPSG:3011" maxx="145717" maxy="6601406" minx="133602" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_td_bal_adressplats_p_td_notering_text_1_391&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+    </Layer>
+    <Layer queryable="1">
+     <Name>BASKARTA_HojdDjuppunkt_p</Name>
+     <Title>TD22.2</Title>
+     <SRS>EPSG:3011</SRS>
+     <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+     <BoundingBox miny="6585141.5" SRS="EPSG:3011" maxx="144091.047" maxy="6599142" minx="135866.203" />
+     <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Layer queryable="1">
+      <Name>td22.2_publ_ho_hojddjuppunkt_p</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585141.5" SRS="EPSG:3011" maxx="144090.954" maxy="6599142" minx="135866.203" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_ho_hojddjuppunkt_p&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+     <Layer queryable="1">
+      <Name>td22.2_publ_ho_hojddjuppunkt_p_lbl_rounded_propertyvalue_392</Name>
+      <Title>TD22.2 (lbl_rounded_propertyvalue)</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585141.5" SRS="EPSG:3011" maxx="144091.047" maxy="6599142" minx="135866.203" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_ho_hojddjuppunkt_p_lbl_rounded_propertyvalue_392&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+    </Layer>
+    <Layer queryable="1">
+     <Name>BAL_Gatunamn_p</Name>
+     <Title>TD22.2</Title>
+     <SRS>EPSG:3011</SRS>
+     <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+     <BoundingBox miny="6585190.5" SRS="EPSG:3011" maxx="143988.969" maxy="6598283.5" minx="135932.281" />
+     <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Layer queryable="1">
+      <Name>td22.2_publ_td_bal_gatunamn_p</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585190.5" SRS="EPSG:3011" maxx="143988.922" maxy="6598283.5" minx="135932.281" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_td_bal_gatunamn_p&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+     <Layer queryable="1">
+      <Name>td22.2_publ_td_bal_gatunamn_p_td_gatunamn_395</Name>
+      <Title>TD22.2 (td_gatunamn)</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585190.5" SRS="EPSG:3011" maxx="143988.969" maxy="6598283.5" minx="135932.281" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_td_bal_gatunamn_p_td_gatunamn_395&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+    </Layer>
+    <Layer queryable="1">
+     <Name>BASKARTA_Namn_p</Name>
+     <Title>BASKARTA_Namn_p</Title>
+     <SRS>EPSG:3011</SRS>
+     <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+     <BoundingBox miny="6586451.5" SRS="EPSG:3011" maxx="143677.75" maxy="6599224" minx="136418.875" />
+     <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Layer queryable="1">
+      <Name>td22.2_publ_td_namn_p</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6586451.5" SRS="EPSG:3011" maxx="143677.657" maxy="6599224" minx="136418.875" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_td_namn_p&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+     <Layer queryable="1">
+      <Name>td22.2_publ_td_namn_p_td_namn_1_393</Name>
+      <Title>TD22.2 (td_namn_1)</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6586451.5" SRS="EPSG:3011" maxx="143677.75" maxy="6599224" minx="136418.875" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_td_namn_p_td_namn_1_393&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+     <Layer queryable="1">
+      <Name>td22.2_publ_td_namn_p_td_namn_2_394</Name>
+      <Title>TD22.2 (td_namn_2)</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6586451.5" SRS="EPSG:3011" maxx="143677.75" maxy="6599224" minx="136418.875" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_td_namn_p_td_namn_2_394&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+    </Layer>
+    <Layer queryable="1">
+     <Name>TD22.2_TD_Byggnadsillustration_l</Name>
+     <Title>TD22.2</Title>
+     <SRS>EPSG:3011</SRS>
+     <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+     <BoundingBox miny="6585150" SRS="EPSG:3011" maxx="144028.204" maxy="6599037.5" minx="135826.718" />
+     <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Layer queryable="1">
+      <Name>td22.2_td_byggnadsillustration_l</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585150" SRS="EPSG:3011" maxx="144028.204" maxy="6599037.5" minx="135826.718" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_td_byggnadsillustration_l&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+    </Layer>
+    <Layer queryable="1">
+     <Name>TD22.2_TD_BAL_Byggnadslinje_l</Name>
+     <Title>TD22.2</Title>
+     <SRS>EPSG:3011</SRS>
+     <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+     <BoundingBox miny="6585139.5" SRS="EPSG:3011" maxx="144094.422" maxy="6599154" minx="135813.234" />
+     <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Layer queryable="1">
+      <Name>td22.2_td_bal_byggnadslinje_l</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585139.5" SRS="EPSG:3011" maxx="144094.422" maxy="6599154" minx="135813.234" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_td_bal_byggnadslinje_l&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+    </Layer>
+    <Layer queryable="1">
+     <Name>BAL_Byggnadsyta_fylld_y</Name>
+     <Title>TD22.2</Title>
+     <SRS>EPSG:3011</SRS>
+     <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+     <BoundingBox miny="6585148" SRS="EPSG:3011" maxx="144114.469" maxy="6599305.5" minx="135813.234" />
+     <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Layer queryable="1">
+      <Name>td22.2_publ_bal_byggnad_y</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585148" SRS="EPSG:3011" maxx="144114.469" maxy="6599305.5" minx="135813.234" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_bal_byggnad_y&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+    </Layer>
+    <Layer queryable="1">
+     <Name>BASKARTA_Markdetalj_p</Name>
+     <Title>TD22.2</Title>
+     <SRS>EPSG:3011</SRS>
+     <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+     <BoundingBox miny="6585181.5" SRS="EPSG:3011" maxx="142762.672" maxy="6598966" minx="136067.468" />
+     <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Layer queryable="1">
+      <Name>td22.2_publ_ALLA_ml_markdetalj_p</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585181.5" SRS="EPSG:3011" maxx="142762.672" maxy="6598966" minx="136067.468" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_ALLA_ml_markdetalj_p&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+      <ScaleHint min="0" max="14.9665" />
+     </Layer>
+    </Layer>
+    <Layer queryable="1">
+     <Name>BASKARTA_Markdetalj_l</Name>
+     <Title>TD22.2</Title>
+     <SRS>EPSG:3011</SRS>
+     <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+     <BoundingBox miny="6585126" SRS="EPSG:3011" maxx="144260.375" maxy="6599368.5" minx="135788.296" />
+     <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Layer queryable="1">
+      <Name>td22.2_publ_ml_markdetalj_utanbrotunnelkanstod_l</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585126" SRS="EPSG:3011" maxx="144260.375" maxy="6599368.5" minx="135788.296" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_ml_markdetalj_utanbrotunnelkanstod_l&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+     <Layer queryable="1">
+      <Name>td22.2_publ_ml_sgrp_marklinje_l_kantstod</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585126" SRS="EPSG:3011" maxx="144260.375" maxy="6599368.5" minx="135788.296" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_ml_sgrp_marklinje_l_kantstod&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+     <Layer queryable="1">
+      <Name>td22.2_publ_ml_sgrp_marklinje_l_bro</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585126" SRS="EPSG:3011" maxx="144260.375" maxy="6599368.5" minx="135788.296" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_ml_sgrp_marklinje_l_bro&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+     <Layer queryable="1">
+      <Name>td22.2_publ_ml_sgrp_marklinje_l_tunnel</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585126" SRS="EPSG:3011" maxx="144260.375" maxy="6599368.5" minx="135788.296" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_ml_sgrp_marklinje_l_tunnel&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+    </Layer>
+    <Layer queryable="1">
+     <Name>BASKARTA_Markdetalj_y</Name>
+     <Title>TD22.2</Title>
+     <SRS>EPSG:3011</SRS>
+     <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+     <BoundingBox miny="6585490.5" SRS="EPSG:3011" maxx="142968.438" maxy="6598897" minx="135912.218" />
+     <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Layer queryable="1">
+      <Name>td22.2_publ_ALLA_ml_markdetalj_y</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585490.5" SRS="EPSG:3011" maxx="142968.438" maxy="6598897" minx="135912.218" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_ALLA_ml_markdetalj_y&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+    </Layer>
+    <Layer queryable="1">
+     <Name>BASKARTA_Ovrig_vag_l</Name>
+     <Title>BASKARTA_Övrig väg_l</Title>
+     <SRS>EPSG:3011</SRS>
+     <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+     <BoundingBox miny="6582762" SRS="EPSG:3011" maxx="145717" maxy="6601406" minx="133602" />
+     <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Layer queryable="1">
+      <Name>td22.2_publ_vj_sgrp_ovrigvag_l</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585186.5" SRS="EPSG:3011" maxx="144162.891" maxy="6598993.5" minx="135874.625" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_vj_sgrp_ovrigvag_l&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+     <Layer queryable="1">
+      <Name>td22.2_publ_vj_sgrp_ovrigvag_l_sg_namn_1_401</Name>
+      <Title>TD22.2 (sg_namn_1)</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585188" SRS="EPSG:3011" maxx="144106.36" maxy="6598968" minx="135893.593" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_vj_sgrp_ovrigvag_l_sg_namn_1_401&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+     <Layer queryable="1">
+      <Name>td22.2_publ_vj_sgrp_ovrigled_l</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="59.359587" maxx="17.924694" maxy="59.527241" minx="17.710254" />
+      <BoundingBox miny="6582762" SRS="EPSG:3011" maxx="145717" maxy="6601406" minx="133602" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_vj_sgrp_ovrigled_l&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+     <Layer queryable="1">
+      <Name>td22.2_publ_vj_sgrp_ovrigled_l_sg_namn_1_402</Name>
+      <Title>TD22.2 (sg_namn_1)</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="59.359587" maxx="17.924694" maxy="59.527241" minx="17.710254" />
+      <BoundingBox miny="6582762" SRS="EPSG:3011" maxx="145717" maxy="6601406" minx="133602" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_vj_sgrp_ovrigled_l_sg_namn_1_402&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+     <Layer queryable="1">
+      <Name>td22.2_publ_vj_sgrp_ovrigpoi_l</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="59.359587" maxx="17.924694" maxy="59.527241" minx="17.710254" />
+      <BoundingBox miny="6582762" SRS="EPSG:3011" maxx="145717" maxy="6601406" minx="133602" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_vj_sgrp_ovrigpoi_l&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+    </Layer>
+    <Layer queryable="1">
+     <Name>BASKARTA_Ovrig_vag_p</Name>
+     <Title>BASKARTA_Övrig väg_p</Title>
+     <SRS>EPSG:3011</SRS>
+     <LatLonBoundingBox miny="59.359587" maxx="17.924694" maxy="59.527241" minx="17.710254" />
+     <BoundingBox miny="6582762" SRS="EPSG:3011" maxx="145717" maxy="6601406" minx="133602" />
+     <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Layer queryable="1">
+      <Name>td22.2_publ_vj_sgrp_ovrigvag_p</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="59.359587" maxx="17.924694" maxy="59.527241" minx="17.710254" />
+      <BoundingBox miny="6582762" SRS="EPSG:3011" maxx="145717" maxy="6601406" minx="133602" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_vj_sgrp_ovrigvag_p&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+     <Layer queryable="1">
+      <Name>td22.2_publ_vj_sgrp_ovrigvag_p_sg_namn_1_403</Name>
+      <Title>TD22.2 (sg_namn_1)</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="59.359587" maxx="17.924694" maxy="59.527241" minx="17.710254" />
+      <BoundingBox miny="6582762" SRS="EPSG:3011" maxx="145717" maxy="6601406" minx="133602" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_vj_sgrp_ovrigvag_p_sg_namn_1_403&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+     <Layer queryable="1">
+      <Name>td22.2_publ_vj_sgrp_ovrigpoi_p</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="59.359587" maxx="17.924694" maxy="59.527241" minx="17.710254" />
+      <BoundingBox miny="6582762" SRS="EPSG:3011" maxx="145717" maxy="6601406" minx="133602" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_vj_sgrp_ovrigpoi_p&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+      <ScaleHint min="0" max="14.9665" />
+     </Layer>
+    </Layer>
+    <Layer queryable="1">
+     <Name>BASKARTA_Marktacke_Kartsymboler_p</Name>
+     <Title>TD22.2</Title>
+     <SRS>EPSG:3011</SRS>
+     <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+     <BoundingBox miny="6585174" SRS="EPSG:3011" maxx="144250.282" maxy="6599344" minx="135827.437" />
+     <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Layer queryable="1">
+      <Name>td22.2_publ_mt_marktacke_alla_utan_verksamhet1_p</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585174" SRS="EPSG:3011" maxx="144250.282" maxy="6599344" minx="135827.437" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_mt_marktacke_alla_utan_verksamhet1_p&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+      <ScaleHint min="0" max="4.49001" />
+     </Layer>
+     <Layer queryable="1">
+      <Name>td22.2_publ_mt_marktacke_alla_med_verksamhet1_p</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585174" SRS="EPSG:3011" maxx="144250.282" maxy="6599344" minx="135827.437" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_mt_marktacke_alla_med_verksamhet1_p&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+      <ScaleHint min="0" max="4.49001" />
+     </Layer>
+    </Layer>
+    <Layer queryable="1">
+     <Name>BASKARTA_Kartsymbol_l</Name>
+     <Title>BASKARTA_Kartsymbol_l</Title>
+     <SRS>EPSG:3011</SRS>
+     <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+     <BoundingBox miny="6585491" SRS="EPSG:3011" maxx="142860.219" maxy="6598896.5" minx="135912.453" />
+     <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Layer queryable="1">
+      <Name>td22.2_publ_td_kartsymbol_l</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585491" SRS="EPSG:3011" maxx="142860.219" maxy="6598896.5" minx="135912.453" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_td_kartsymbol_l&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+    </Layer>
+    <Layer queryable="1">
+     <Name>BASKARTA_Kartsymbol_p</Name>
+     <Title>BASKARTA_Kartsymbol_p</Title>
+     <SRS>EPSG:3011</SRS>
+     <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+     <BoundingBox miny="6585206.5" SRS="EPSG:3011" maxx="144245.438" maxy="6599014" minx="136179.656" />
+     <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Layer queryable="1">
+      <Name>td22.2_publ_td_kartsymbol_p</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585206.5" SRS="EPSG:3011" maxx="144245.438" maxy="6599014" minx="136179.656" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_td_kartsymbol_p&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+      <ScaleHint min="0" max="29.9325" />
+     </Layer>
+    </Layer>
+    <Layer queryable="1">
+     <Name>BASKARTA_HojdDjupkurva_l_ettlager</Name>
+     <Title>TD22.2</Title>
+     <SRS>EPSG:3011</SRS>
+     <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+     <BoundingBox miny="6585133.5" SRS="EPSG:3011" maxx="144257.969" maxy="6599334.5" minx="135788.703" />
+     <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Layer queryable="1">
+      <Name>td22.2_publ_hk_hojddjupkurva_05m_l</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585133.5" SRS="EPSG:3011" maxx="144257.969" maxy="6599334.5" minx="135788.703" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_hk_hojddjupkurva_05m_l&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+     <Layer queryable="1">
+      <Name>td22.2_publ_hk_hojddjupkurva_1m_upp_l</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585133.5" SRS="EPSG:3011" maxx="144257.969" maxy="6599334.5" minx="135788.703" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_hk_hojddjupkurva_1m_upp_l&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+    </Layer>
+    <Layer queryable="1">
+     <Name>BAL_Adressomrade_y</Name>
+     <Title>TD22.2</Title>
+     <SRS>EPSG:3011</SRS>
+     <LatLonBoundingBox miny="59.359587" maxx="17.924694" maxy="59.527241" minx="17.710254" />
+     <BoundingBox miny="6582762" SRS="EPSG:3011" maxx="145717" maxy="6601406" minx="133602" />
+     <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Layer queryable="1">
+      <Name>td22.2_publ_td_bal_adressomrade_y</Name>
+      <Title>TD22.2</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="59.359587" maxx="17.924694" maxy="59.527241" minx="17.710254" />
+      <BoundingBox miny="6582762" SRS="EPSG:3011" maxx="145717" maxy="6601406" minx="133602" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_td_bal_adressomrade_y&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+     <Layer queryable="1">
+      <Name>td22.2_publ_td_bal_adressomrade_y_td_adressomradesnamn_399</Name>
+      <Title>TD22.2 (td_adressomradesnamn)</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="59.359587" maxx="17.924694" maxy="59.527241" minx="17.710254" />
+      <BoundingBox miny="6582762" SRS="EPSG:3011" maxx="145717" maxy="6601406" minx="133602" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_publ_td_bal_adressomrade_y_td_adressomradesnamn_399&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+    </Layer>
+    <Layer queryable="1">
+     <Name>TD22.2_BASKARTA_Hojddjupkurva_hk_hojddjupkurva_text_p</Name>
+     <Title>TD22.2_BASKARTA_Hojddjupkurva_hk_hojddjupkurva_text_p</Title>
+     <SRS>EPSG:3011</SRS>
+     <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+     <BoundingBox miny="6585138" SRS="EPSG:3011" maxx="144241.75" maxy="6599301" minx="135791.796" />
+     <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Layer queryable="1">
+      <Name>td22.2_td_hk_hojddjupkurva_text_p</Name>
+      <Title>td22.2_td_hk_hojddjupkurva_text_p</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585138" SRS="EPSG:3011" maxx="144241.75" maxy="6599301" minx="135791.812" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_td_hk_hojddjupkurva_text_p&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+     <Layer queryable="1">
+      <Name>td22.2_td_hk_hojddjupkurva_text_p_in_propertyvalue_421</Name>
+      <Title>td22.2_td_hk_hojddjupkurva_text_p (in_propertyvalue)</Title>
+      <SRS>EPSG:3011</SRS>
+      <LatLonBoundingBox miny="58.697601" maxx="19.282382" maxy="60.655467" minx="17.024885" />
+      <BoundingBox miny="6585138" SRS="EPSG:3011" maxx="144241.75" maxy="6599301" minx="135791.796" />
+      <MetadataURL type="TC211"><Format>text/html</Format><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg/metadata" /></MetadataURL><Style>
+       <Name>Standard</Name>
+       <Title>Standard</Title>
+       <LegendURL>
+        <Format>image/png</Format>
+        <OnlineResource xlink:href="https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetLegendGraphic&amp;LAYER=td22.2_td_hk_hojddjupkurva_text_p_in_propertyvalue_421&amp;FORMAT=image/png&amp;STYLE=Standard" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" />
+       </LegendURL>
+      </Style>
+     </Layer>
+    </Layer>
+   </Layer>
+  </Layer>
+ </Capability>
+</WMT_MS_Capabilities>

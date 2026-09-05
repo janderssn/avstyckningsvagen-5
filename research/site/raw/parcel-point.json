@@ -1,0 +1,20 @@
+[ {
+"idnr": 12287337,
+"objekt_id": "909a6a45-2a89-90ec-e040-ed8f66444c3f",
+"externid": "0123>VIKSJÖ>2:573>1>>>>1",
+"detaljtyp": "FASTIGHET",
+"kommunkod": "0123",
+"kommunnamn": "JÄRFÄLLA",
+"trakt": "VIKSJÖ",
+"blockenhet": "2:573",
+"omrnr": 1,
+"fastighet": "VIKSJÖ 2:573>1",
+"ytkval": 1,
+"adat": "2014-08-27T19:41:00.000Z",
+"omrtyp": null,
+"registrerad_datum": "2026-09-04T01:49:04.497Z",
+"registrerad_av": "SVC-FME-Server",
+"reviderad_datum": "2026-09-04T01:49:04.497Z",
+"reviderad_av": "SVC-FME-Server",
+"shape_wkt": "POLYGON ((138708.7331 6589592.154, 138703.7753 6589588.021, 138699.8888 6589584.177, 138695.8827 6589579.503, 138692.6124 6589574.939, 138720.998 6589558.588, 138729.6658 6589565.361, 138708.7331 6589592.154))"
+} ]

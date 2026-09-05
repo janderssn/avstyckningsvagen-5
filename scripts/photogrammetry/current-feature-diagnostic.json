@@ -1,0 +1,16 @@
+{
+  "features": [
+    {
+      "image": "0000_google-streetview-2022-number5-front.png",
+      "features": 11697
+    }
+  ],
+  "verified_pairs": [],
+  "pycolmap": "3.13.0",
+  "device": "cpu",
+  "cuda_available": false,
+  "triangulated_points": 0,
+  "reconstruction_attempted": false,
+  "reason": "Single camera view: feature extraction is diagnostic only; no depth can be triangulated.",
+  "input_sha256": "4bbc30e2f1708bf20445fbc6a324880faae20a7f9fcbd2e5a5a3e8710189ba07"
+}

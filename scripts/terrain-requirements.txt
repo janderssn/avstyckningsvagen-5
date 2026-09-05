@@ -1,0 +1,7 @@
+# Reproducible terrain acquisition/build environment used for this project.
+numpy==2.1.0
+rasterio==1.5.0
+pyproj==3.7.2
+scipy==1.17.1
+requests==2.34.2
+python-dotenv==1.2.1

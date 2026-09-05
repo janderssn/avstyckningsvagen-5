@@ -1,0 +1,22 @@
+{"_name":"result", "_class":"pcomposite", "_pcolid":"{284DDCE2-8C1D-43CB-997E-CE1B26BA671C}", "row":[{"_name":"ds_fastytor", "_class":"pcomposite", "_pcolid":"{1B9412D4-25C4-41F9-842B-6B636C74AD3A}", "row":[{"_name":"columns", "_class":"rowlist", "_pcolid":"{AC8B33BD-3BCE-4A26-BA26-71767B02DE24}", "row":[{"_name":"idnr", "_class":"row", "_pcolid":"{231D8738-5DBF-48E0-93EC-4EB88762076D}", "columnname":"idnr", "columntype":"Int", "isnumeric":"true", "isalfanumeric":"false"}
+, {"_name":"objekt_id", "_class":"row", "_pcolid":"{C83E3374-47BF-4139-8DEF-8E304EF16269}", "columnname":"objekt_id", "columntype":"String", "isnumeric":"false", "isalfanumeric":"true"}
+, {"_name":"externid", "_class":"row", "_pcolid":"{A2BD9F3F-BE2F-46A9-AA49-2267CC0B7936}", "columnname":"externid", "columntype":"String", "isnumeric":"false", "isalfanumeric":"true"}
+, {"_name":"detaljtyp", "_class":"row", "_pcolid":"{1BA7D8D7-EFEE-407D-A2E0-3B03120697A9}", "columnname":"detaljtyp", "columntype":"String", "isnumeric":"false", "isalfanumeric":"true"}
+, {"_name":"kommunkod", "_class":"row", "_pcolid":"{81B0951E-A323-43FE-974D-1D8975016C02}", "columnname":"kommunkod", "columntype":"String", "isnumeric":"false", "isalfanumeric":"true"}
+, {"_name":"kommunnamn", "_class":"row", "_pcolid":"{477164FA-7516-48E1-8C8A-5D236BA08EE3}", "columnname":"kommunnamn", "columntype":"String", "isnumeric":"false", "isalfanumeric":"true"}
+, {"_name":"trakt", "_class":"row", "_pcolid":"{A495AD0F-E659-4115-8D74-B1C44CA6D5B7}", "columnname":"trakt", "columntype":"String", "isnumeric":"false", "isalfanumeric":"true"}
+, {"_name":"blockenhet", "_class":"row", "_pcolid":"{17531BD0-57BD-41B2-A93C-2E98C31B7104}", "columnname":"blockenhet", "columntype":"String", "isnumeric":"false", "isalfanumeric":"true"}
+, {"_name":"omrnr", "_class":"row", "_pcolid":"{4CC51016-3690-4DC6-8319-C9DA4733E99A}", "columnname":"omrnr", "columntype":"Int", "isnumeric":"true", "isalfanumeric":"false"}
+, {"_name":"fastighet", "_class":"row", "_pcolid":"{8AED22AA-CDA6-417B-BA84-68ED4B758B2A}", "columnname":"fastighet", "columntype":"String", "isnumeric":"false", "isalfanumeric":"true"}
+, {"_name":"ytkval", "_class":"row", "_pcolid":"{C968DAA1-B0FE-480C-B9BD-27F53402ABFB}", "columnname":"ytkval", "columntype":"Int", "isnumeric":"true", "isalfanumeric":"false"}
+, {"_name":"adat", "_class":"row", "_pcolid":"{36B86CCE-1441-4934-AB11-011FF5E4C45C}", "columnname":"adat", "columntype":"Timestamp", "isnumeric":"false", "isalfanumeric":"false"}
+, {"_name":"omrtyp", "_class":"row", "_pcolid":"{73178ECB-5D80-4E2B-8407-21DCAC6E1F0B}", "columnname":"omrtyp", "columntype":"String", "isnumeric":"false", "isalfanumeric":"true"}
+, {"_name":"registrerad_datum", "_class":"row", "_pcolid":"{36B150F6-E4FB-4592-8C7E-6F90E1F5EBC2}", "columnname":"registrerad_datum", "columntype":"Timestamp", "isnumeric":"false", "isalfanumeric":"false"}
+, {"_name":"registrerad_av", "_class":"row", "_pcolid":"{C60B6236-F6BB-499C-9BDF-528E8BCFA729}", "columnname":"registrerad_av", "columntype":"String", "isnumeric":"false", "isalfanumeric":"true"}
+, {"_name":"reviderad_datum", "_class":"row", "_pcolid":"{D41144E6-A66D-49C9-B9C1-3B96FD885AE4}", "columnname":"reviderad_datum", "columntype":"Timestamp", "isnumeric":"false", "isalfanumeric":"false"}
+, {"_name":"reviderad_av", "_class":"row", "_pcolid":"{BDF41F10-D951-45D8-B9E3-81283780D75E}", "columnname":"reviderad_av", "columntype":"String", "isnumeric":"false", "isalfanumeric":"true"}
+, {"_name":"shape_wkt", "_class":"row", "_pcolid":"{7486E510-11C2-45A6-BF10-B051018300AE}", "columnname":"shape_wkt", "columntype":"Geometry", "isnumeric":"false", "isalfanumeric":"false"}
+]}
+, {"displayname":"ds_fastytor"}
+]}
+]}

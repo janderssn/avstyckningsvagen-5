@@ -1,0 +1,123 @@
+{
+  "reviewed": "2026-09-05",
+  "scope": "Manual visual audit of selected automatic correspondences, not surveyed points and not a reconstruction",
+  "source_report": "matching-audit.json",
+  "pair": [
+    "view1",
+    "view2"
+  ],
+  "method": "colmap_descriptors_independent_bf",
+  "ratio": 0.8,
+  "credible_examples": [
+    {
+      "match_index": 5,
+      "label": "Physical number 5 on white corner trim",
+      "interpretation": "Visually credible 2D correspondence; not independent metric control",
+      "left_xy_px": [
+        1528.05859375,
+        590.3134155273438
+      ],
+      "right_xy_px": [
+        1524.1258544921875,
+        681.1556396484375
+      ],
+      "fundamental_inlier": true,
+      "homography_inlier": true
+    },
+    {
+      "match_index": 14,
+      "label": "Wall lamp above garage",
+      "interpretation": "Visually credible 2D correspondence; not independent metric control",
+      "left_xy_px": [
+        1371.2606201171875,
+        539.0623168945312
+      ],
+      "right_xy_px": [
+        1430.8223876953125,
+        651.8284912109375
+      ],
+      "fundamental_inlier": true,
+      "homography_inlier": true
+    },
+    {
+      "match_index": 3,
+      "label": "Upper right outer trim corner of right street window",
+      "interpretation": "Visually credible 2D correspondence; not independent metric control",
+      "left_xy_px": [
+        1540.545166015625,
+        300.1247863769531
+      ],
+      "right_xy_px": [
+        1521.34326171875,
+        488.313720703125
+      ],
+      "fundamental_inlier": true,
+      "homography_inlier": true
+    },
+    {
+      "match_index": 13,
+      "label": "Nearby upper right window trim detail",
+      "interpretation": "Visually credible 2D correspondence; not independent metric control",
+      "left_xy_px": [
+        1531.0623779296875,
+        308.0533752441406
+      ],
+      "right_xy_px": [
+        1516.2823486328125,
+        495.1883850097656
+      ],
+      "fundamental_inlier": true,
+      "homography_inlier": true
+    }
+  ],
+  "rejected_third_view_observation": "OpenCV pair 1–3 and pair 2–3 at ratio 0.85 link street-facing window/frame/garage points to different entrance-gable/door points; roof points show repeated-tile ambiguity. A fundamental-matrix inlier flag does not establish physical identity.",
+  "geometric_acceptance": {
+    "reconstruction": false,
+    "cheirality": "not measurable: no valid reconstructed cameras",
+    "triangulation_parallax": "not measurable: no valid reconstructed cameras",
+    "multiview_track_length": "No accepted 3D tracks",
+    "reprojection_error": "Not measurable: no accepted 3D points"
+  },
+  "rejected_examples": [
+    {
+      "method": "opencv_rootsift",
+      "images": [
+        "0000_google-streetview-2022-number5-front.png",
+        "0002_google-streetview-2022-position3.png"
+      ],
+      "ratio": 0.85,
+      "match_index": 6,
+      "reason": "Roof/snow-guard detail in view 1 linked to basement-level detail in view 3; different physical surfaces",
+      "left_xy_px": [
+        1524.9893798828125,
+        232.15306091308594
+      ],
+      "right_xy_px": [
+        1440.3878173828125,
+        763.5720825195312
+      ],
+      "fundamental_inlier": true,
+      "homography_inlier": true
+    },
+    {
+      "method": "opencv_rootsift",
+      "images": [
+        "0001_google-streetview-2022-position2.png",
+        "0002_google-streetview-2022-position3.png"
+      ],
+      "ratio": 0.85,
+      "match_index": 7,
+      "reason": "Street-facing window corner in view 2 linked to an entrance-gable detail in view 3; different physical features",
+      "left_xy_px": [
+        1362.810791015625,
+        618.9828491210938
+      ],
+      "right_xy_px": [
+        1295.5029296875,
+        494.2715759277344
+      ],
+      "fundamental_inlier": true,
+      "homography_inlier": true
+    }
+  ]
+}

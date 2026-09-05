@@ -1,0 +1,24 @@
+{
+  "property": "VIKSJÖ 2:573",
+  "parcelAreaM2": 577.9571748347272,
+  "matchesPreviouslyReported578M2Within1M2": true,
+  "roofVerticesAllInsideParcel": true,
+  "housePropertyUuidMatchesParcelUuid": true,
+  "contourCount": 72,
+  "contourVertexCount": 15387,
+  "uniquelyMatchedContourFeatures": 72,
+  "unmatchedContours": 0,
+  "spotHeightCount": 9,
+  "unmatchedSpotHeights": 0,
+  "acquisitionDates": [
+    "2023-04-23"
+  ],
+  "crs": "EPSG:3011",
+  "verticalDatum": "RH2000",
+  "notes": [
+    "DXF exports full features extending outside request bbox.",
+    "House ground-floor absolute height is absent from source attributes.",
+    "Exported roof-edge geometry is not the exterior wall footprint.",
+    "Any terrain mesh between contours is an interpolation, not the raw municipal DTM."
+  ]
+}

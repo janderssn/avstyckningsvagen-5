@@ -1,0 +1,79 @@
+{
+  "provider": "Lantmäteriet",
+  "product": "Markhöjdmodell Nedladdning 1 m",
+  "apiUrl": "https://api.lantmateriet.se/stac-hojd/v1",
+  "collection": [
+    "dtm-cog"
+  ],
+  "items": [
+    {
+      "id": "659_65",
+      "collection": "dtm-cog",
+      "assetUrl": "https://dl1.lantmateriet.se/hojd/data/grid/mhm/65_6/m659_65.tif",
+      "properties": {
+        "updated": "2026-06-23T16:05:34Z",
+        "datetime": "2023-02-24T12:00:00Z",
+        "proj:code": "EPSG:5845",
+        "brytgeometri": true,
+        "end_datetime": "2025-06-14T00:00:00Z",
+        "andringsdatum": "2026-02-27",
+        "data_modified": "2026-02-27T00:00:00Z",
+        "gridproducent": "Lantmäteriet",
+        "hojdmodelltyp": "markhöjdmodell",
+        "start_datetime": "2020-11-06T00:00:00Z",
+        "lagesosakerhethojd": 0.1,
+        "lagesosakerhetplan": 0.3,
+        "geometriskupplosning": 1.0,
+        "ursprungligtmatdatum": "2021-03-23",
+        "huvudsakliglagesbestamningsmetod": "Luftburen laserskanning"
+      },
+      "sourceCrs": "EPSG:5845",
+      "sourceResolutionM": [
+        1.0,
+        1.0
+      ],
+      "sourceRasterSize": [
+        10000,
+        10000
+      ]
+    }
+  ],
+  "crs": "EPSG:5845",
+  "verticalDatum": "RH2000",
+  "sourceResolutionM": 1,
+  "clip": {
+    "bounds": [
+      658866.0,
+      6590207.0,
+      659009.0,
+      6590340.0
+    ],
+    "transform": [
+      1.0,
+      0.0,
+      658866.0,
+      0.0,
+      -1.0,
+      6590340.0
+    ],
+    "width": 143,
+    "height": 133,
+    "nodata": -9999
+  },
+  "retrievedAt": "2026-09-05T17:06:20.358293+00:00",
+  "sha256": "6acd48da3c2b0a9813cc283f66cdc6c3951e6ca5e75c91c87ffe8ea564ae9fec",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Markhöjdmodell Nedladdning, © Lantmäteriet, CC BY 4.0. Beskuret och resamplat för visning.",
+  "acquisitionMethod": "Authenticated STAC catalog, native GeoTIFF crop using HTTP byte ranges; no elevation fallback.",
+  "acquisition": {
+    "date": "2021-03-23",
+    "method": "Luftburen laserskanning",
+    "heightUncertaintyM": 0.1,
+    "horizontalUncertaintyM": 0.3,
+    "originPolygonId": "23",
+    "verification": "House center, all 7 parcel corners, all 4 municipal context corners, and all 19019 pixel centers of the 143×133 native crop lie in origin polygon 23 (including exclusion of interior rings).",
+    "verifiedRasterPixelCount": 19019,
+    "originMetadataUrl": "https://dl1.lantmateriet.se/hojd/pub/grid/mhm/65_6/m659_65_ursprung.json"
+  }
+}

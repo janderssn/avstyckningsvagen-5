@@ -1,0 +1,96 @@
+{
+  "crs": "EPSG:3011",
+  "sourceRaw": "raw/heights.dxf",
+  "entities": [
+    {
+      "type": "POINT",
+      "layer": "TD22.2",
+      "coordinates": [
+        [
+          138744.551,
+          6589623.9
+        ]
+      ]
+    },
+    {
+      "type": "POINT",
+      "layer": "TD22.2",
+      "coordinates": [
+        [
+          138761.205,
+          6589598.966
+        ]
+      ]
+    },
+    {
+      "type": "POINT",
+      "layer": "TD22.2",
+      "coordinates": [
+        [
+          138773.357,
+          6589571.613
+        ]
+      ]
+    },
+    {
+      "type": "POINT",
+      "layer": "TD22.2",
+      "coordinates": [
+        [
+          138779.926,
+          6589542.435
+        ]
+      ]
+    },
+    {
+      "type": "POINT",
+      "layer": "TD22.2",
+      "coordinates": [
+        [
+          138664.335,
+          6589526.092
+        ]
+      ]
+    },
+    {
+      "type": "POINT",
+      "layer": "TD22.2",
+      "coordinates": [
+        [
+          138676.179,
+          6589553.655
+        ]
+      ]
+    },
+    {
+      "type": "POINT",
+      "layer": "TD22.2",
+      "coordinates": [
+        [
+          138690.095,
+          6589580.134
+        ]
+      ]
+    },
+    {
+      "type": "POINT",
+      "layer": "TD22.2",
+      "coordinates": [
+        [
+          138711.506,
+          6589600.956
+        ]
+      ]
+    },
+    {
+      "type": "POINT",
+      "layer": "TD22.2",
+      "coordinates": [
+        [
+          138735.906,
+          6589618.344
+        ]
+      ]
+    }
+  ]
+}

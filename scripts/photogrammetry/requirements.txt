@@ -1,0 +1,4 @@
+pycolmap==3.13.0
+Pillow==12.3.0
+numpy==2.5.2
+trimesh==5.1.0

@@ -1,0 +1,16 @@
+{
+  "comparison": "Native DEM bilinear samples vs earlier municipal contour TIN, both absolute RH2000; outside house footprint",
+  "parcelSampleCount": 489,
+  "meanDifferenceM": 0.09654273063175943,
+  "medianDifferenceM": 0.02417847595214795,
+  "meanAbsoluteDifferenceM": 0.2460753466584687,
+  "maxAbsoluteDifferenceM": 1.3758657226562505,
+  "newParcelHeightRangeRH2000": [
+    17.136980056762695,
+    21.14128303527832
+  ],
+  "allLocalGridInsideCrop": true,
+  "oldGroundFloorDatum": 20.55,
+  "newEstimatedGroundFloorDatum": 20.1,
+  "caution": "Sources measured in different years (municipal2023, LM2021); delta is not an accuracy estimate."
+}

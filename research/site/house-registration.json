@@ -1,0 +1,54 @@
+{
+  "crs": "EPSG:3011",
+  "center": [
+    138710.06465025002,
+    6589578.8421705
+  ],
+  "roofEdgePolygon": [
+    [
+      138714.053571,
+      6589580.894675
+    ],
+    [
+      138716.940065,
+      6589577.173464
+    ],
+    [
+      138709.971756,
+      6589571.768519
+    ],
+    [
+      138703.189236,
+      6589580.510877
+    ],
+    [
+      138710.157544,
+      6589585.915822
+    ],
+    [
+      138712.586178,
+      6589582.785902
+    ],
+    [
+      138714.053571,
+      6589580.894675
+    ]
+  ],
+  "roofEdgeWidth": 8.818773201140882,
+  "roofEdgeDepth": 11.064872387469327,
+  "localXUnitEN": [
+    -0.7901002102760977,
+    -0.6129776975728123
+  ],
+  "localZUnitEN": [
+    -0.6129776975728123,
+    0.7901002102760977
+  ],
+  "localZCompassBearingDegrees": 322.1948772851447,
+  "source": "Municipal WMS building layer td22.2_publ_bal_byggnad_y, DXF plus GetFeatureInfo",
+  "raw": "raw/building.dxf",
+  "rawFeatureInfo": "raw/building-featureinfo.json",
+  "buildingId": "5bfca77f-2e12-4cc7-95fc-1f855fb50321",
+  "propertyId": "909a6a45-2a89-90ec-e040-ed8f66444c3f",
+  "method": "Rectangle orientation/center from roof-edge polygon; map attribute Insamlingsläge=Takkant. Local +Z streetfront/NW, local +X southwest. Wall dimensions remain archival 8.15 ×10.65m."
+}

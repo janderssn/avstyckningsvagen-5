@@ -1,0 +1,12 @@
+{
+  "url": "https://geodirektext.jarfalla.se/maps/Geodata/baskarta_farg?token=4198d5a961e44d8e80abbf1334f670d6&SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&SRS=EPSG%3A3011&LAYERS=baskarta_farg&FORMAT=image%2Fpng&BBOX=138650%2C6589520%2C138780%2C6589640&WIDTH=1560&HEIGHT=1440",
+  "bbox": [
+    138650,
+    6589520,
+    138780,
+    6589640
+  ],
+  "crs": "EPSG:3011",
+  "width": 1560,
+  "height": 1440
+}

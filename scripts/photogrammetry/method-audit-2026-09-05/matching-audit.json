@@ -1,0 +1,5705 @@
+{
+  "generated_utc": "2026-09-05T16:01:30.541889+00:00",
+  "opencv": "4.13.0",
+  "source_run": "scripts/photogrammetry/streetview-attempt-2026-09-05",
+  "status": "matching_diagnostic_only",
+  "reconstructed_points": 0,
+  "parameters": {
+    "mutual_nearest_neighbor": true,
+    "diagnostic_ratio_test": "forward only; symmetric ratio and max-distance pass count also reported separately",
+    "ratios": [
+      0.7,
+      0.8,
+      0.85,
+      0.9
+    ],
+    "geometry": "USAC_MAGSAC",
+    "geometry_threshold_px": 3,
+    "confidence": 0.999,
+    "iterations": 10000,
+    "opencv_sift_contrast_threshold": 0.02,
+    "opencv_sift_max_features": 12000
+  },
+  "limitations": [
+    "Ratio 0.9 is exploratory and admits ambiguous matches",
+    "Fundamental inliers may be repeated tiles, planar degeneracies or foliage; visuals must be inspected",
+    "Two-view matches do not establish a usable three-view reconstruction or metric accuracy"
+  ],
+  "methods": {
+    "colmap_descriptors_independent_bf": {
+      "features": [
+        {
+          "image": "0000_google-streetview-2022-number5-front.png",
+          "count": 724
+        },
+        {
+          "image": "0001_google-streetview-2022-position2.png",
+          "count": 360
+        },
+        {
+          "image": "0002_google-streetview-2022-position3.png",
+          "count": 265
+        }
+      ],
+      "pairs": [
+        {
+          "images": [
+            "0000_google-streetview-2022-number5-front.png",
+            "0001_google-streetview-2022-position2.png"
+          ],
+          "ratio": 0.7,
+          "mutual_matches": 6,
+          "mutual_with_both_ratio_tests_and_07_distance": 6,
+          "fundamental_inliers": 0,
+          "homography_inliers": 6,
+          "distinct_F_inlier_coordinate_pairs_rounded_1px": 0,
+          "fundamental_matrix": null,
+          "homography_matrix": [
+            [
+              -0.4853440581799757,
+              0.10313700307271906,
+              1206.074582290385
+            ],
+            [
+              -0.28494464610078996,
+              0.2789911972867238,
+              511.9847181899129
+            ],
+            [
+              -0.0004552764037782337,
+              7.648731816517891e-05,
+              1.0
+            ]
+          ],
+          "matches": [
+            {
+              "left_xy_px": [
+                1550.6505126953125,
+                728.276611328125
+              ],
+              "right_xy_px": [
+                1511.2677001953125,
+                781.5277709960938
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1540.545166015625,
+                300.1247863769531
+              ],
+              "right_xy_px": [
+                1521.34326171875,
+                488.313720703125
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1458.8629150390625,
+                337.9661865234375
+              ],
+              "right_xy_px": [
+                1473.4815673828125,
+                527.069091796875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1539.662841796875,
+                323.79718017578125
+              ],
+              "right_xy_px": [
+                1520.75341796875,
+                504.3650817871094
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1395.251220703125,
+                465.41436767578125
+              ],
+              "right_xy_px": [
+                1439.67138671875,
+                609.6761474609375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1371.2606201171875,
+                539.0623168945312
+              ],
+              "right_xy_px": [
+                1430.8223876953125,
+                651.8284912109375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            }
+          ]
+        },
+        {
+          "images": [
+            "0000_google-streetview-2022-number5-front.png",
+            "0001_google-streetview-2022-position2.png"
+          ],
+          "ratio": 0.8,
+          "mutual_matches": 15,
+          "mutual_with_both_ratio_tests_and_07_distance": 8,
+          "fundamental_inliers": 14,
+          "homography_inliers": 7,
+          "distinct_F_inlier_coordinate_pairs_rounded_1px": 14,
+          "fundamental_matrix": [
+            [
+              -9.43147315781542e-07,
+              -6.535923322609004e-06,
+              0.006041022825410533
+            ],
+            [
+              -4.753924329114459e-06,
+              -1.2298176780891392e-06,
+              0.01716396280905021
+            ],
+            [
+              0.004124783440431553,
+              0.004432902735002654,
+              -16.30247188623076
+            ]
+          ],
+          "homography_matrix": [
+            [
+              -0.46327069271439747,
+              0.01935985919020937,
+              1172.349740755474
+            ],
+            [
+              -0.2997700032498097,
+              0.2076200250825133,
+              548.1804467638786
+            ],
+            [
+              -0.00045221484713579884,
+              5.48493180365337e-06,
+              1.0
+            ]
+          ],
+          "matches": [
+            {
+              "left_xy_px": [
+                1550.6505126953125,
+                728.276611328125
+              ],
+              "right_xy_px": [
+                1511.2677001953125,
+                781.5277709960938
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1210.57861328125,
+                732.5951538085938
+              ],
+              "right_xy_px": [
+                1669.8758544921875,
+                403.55865478515625
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1513.6585693359375,
+                241.13577270507812
+              ],
+              "right_xy_px": [
+                1521.5882568359375,
+                452.34576416015625
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1540.545166015625,
+                300.1247863769531
+              ],
+              "right_xy_px": [
+                1521.34326171875,
+                488.313720703125
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1458.8629150390625,
+                337.9661865234375
+              ],
+              "right_xy_px": [
+                1473.4815673828125,
+                527.069091796875
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1528.05859375,
+                590.3134155273438
+              ],
+              "right_xy_px": [
+                1524.1258544921875,
+                681.1556396484375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1343.4664306640625,
+                197.59996032714844
+              ],
+              "right_xy_px": [
+                1525.5318603515625,
+                433.1527099609375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1539.662841796875,
+                323.79718017578125
+              ],
+              "right_xy_px": [
+                1520.75341796875,
+                504.3650817871094
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1395.251220703125,
+                465.41436767578125
+              ],
+              "right_xy_px": [
+                1439.67138671875,
+                609.6761474609375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1374.806640625,
+                212.66378784179688
+              ],
+              "right_xy_px": [
+                1421.919189453125,
+                474.9081726074219
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1394.2261962890625,
+                319.03515625
+              ],
+              "right_xy_px": [
+                1415.7325439453125,
+                532.2109375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1524.9312744140625,
+                327.32757568359375
+              ],
+              "right_xy_px": [
+                1436.2606201171875,
+                527.2784423828125
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1195.628173828125,
+                589.7239379882812
+              ],
+              "right_xy_px": [
+                1366.9644775390625,
+                682.14990234375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1531.0623779296875,
+                308.0533752441406
+              ],
+              "right_xy_px": [
+                1516.2823486328125,
+                495.1883850097656
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1371.2606201171875,
+                539.0623168945312
+              ],
+              "right_xy_px": [
+                1430.8223876953125,
+                651.8284912109375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            }
+          ],
+          "visualization": "colmap_descriptors_independent_bf-pair1-2-ratio0.8.png"
+        },
+        {
+          "images": [
+            "0000_google-streetview-2022-number5-front.png",
+            "0001_google-streetview-2022-position2.png"
+          ],
+          "ratio": 0.85,
+          "mutual_matches": 23,
+          "mutual_with_both_ratio_tests_and_07_distance": 11,
+          "fundamental_inliers": 17,
+          "homography_inliers": 7,
+          "distinct_F_inlier_coordinate_pairs_rounded_1px": 16,
+          "fundamental_matrix": [
+            [
+              -3.402600243613677e-07,
+              -8.153842440220322e-06,
+              0.0056359146619073715
+            ],
+            [
+              -2.998756626834702e-06,
+              -1.5332616785093534e-06,
+              0.014833617044803649
+            ],
+            [
+              0.0023677451458167112,
+              0.006926034711671699,
+              -14.543361952275177
+            ]
+          ],
+          "homography_matrix": [
+            [
+              -0.4572125478732005,
+              0.03267693505529824,
+              1168.0518837114896
+            ],
+            [
+              -0.3014300566082702,
+              0.21739616506949566,
+              550.6758417668631
+            ],
+            [
+              -0.00045003585654210113,
+              1.4094158478371274e-05,
+              1.0
+            ]
+          ],
+          "matches": [
+            {
+              "left_xy_px": [
+                1380.8753662109375,
+                351.6425476074219
+              ],
+              "right_xy_px": [
+                1286.7486572265625,
+                611.4628295898438
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1550.6505126953125,
+                728.276611328125
+              ],
+              "right_xy_px": [
+                1511.2677001953125,
+                781.5277709960938
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1210.57861328125,
+                732.5951538085938
+              ],
+              "right_xy_px": [
+                1669.8758544921875,
+                403.55865478515625
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1247.238037109375,
+                775.2857666015625
+              ],
+              "right_xy_px": [
+                1508.0738525390625,
+                637.7252197265625
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1513.6585693359375,
+                241.13577270507812
+              ],
+              "right_xy_px": [
+                1521.5882568359375,
+                452.34576416015625
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1513.6585693359375,
+                241.13577270507812
+              ],
+              "right_xy_px": [
+                1521.5882568359375,
+                452.34576416015625
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1540.545166015625,
+                300.1247863769531
+              ],
+              "right_xy_px": [
+                1521.34326171875,
+                488.313720703125
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1458.8629150390625,
+                337.9661865234375
+              ],
+              "right_xy_px": [
+                1473.4815673828125,
+                527.069091796875
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1323.334228515625,
+                511.6633605957031
+              ],
+              "right_xy_px": [
+                1524.6270751953125,
+                543.03466796875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1384.7711181640625,
+                535.7155151367188
+              ],
+              "right_xy_px": [
+                1511.0511474609375,
+                644.2796630859375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1528.05859375,
+                590.3134155273438
+              ],
+              "right_xy_px": [
+                1524.1258544921875,
+                681.1556396484375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1220.8892822265625,
+                760.4006958007812
+              ],
+              "right_xy_px": [
+                1621.5318603515625,
+                435.65142822265625
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1343.4664306640625,
+                197.59996032714844
+              ],
+              "right_xy_px": [
+                1525.5318603515625,
+                433.1527099609375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1522.8514404296875,
+                249.90908813476562
+              ],
+              "right_xy_px": [
+                1514.7374267578125,
+                459.3038635253906
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1539.662841796875,
+                323.79718017578125
+              ],
+              "right_xy_px": [
+                1520.75341796875,
+                504.3650817871094
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1395.251220703125,
+                465.41436767578125
+              ],
+              "right_xy_px": [
+                1439.67138671875,
+                609.6761474609375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1262.85302734375,
+                600.6754760742188
+              ],
+              "right_xy_px": [
+                1486.8819580078125,
+                732.585693359375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1374.806640625,
+                212.66378784179688
+              ],
+              "right_xy_px": [
+                1421.919189453125,
+                474.9081726074219
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1394.2261962890625,
+                319.03515625
+              ],
+              "right_xy_px": [
+                1415.7325439453125,
+                532.2109375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1524.9312744140625,
+                327.32757568359375
+              ],
+              "right_xy_px": [
+                1436.2606201171875,
+                527.2784423828125
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1195.628173828125,
+                589.7239379882812
+              ],
+              "right_xy_px": [
+                1366.9644775390625,
+                682.14990234375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1531.0623779296875,
+                308.0533752441406
+              ],
+              "right_xy_px": [
+                1516.2823486328125,
+                495.1883850097656
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1371.2606201171875,
+                539.0623168945312
+              ],
+              "right_xy_px": [
+                1430.8223876953125,
+                651.8284912109375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            }
+          ],
+          "visualization": "colmap_descriptors_independent_bf-pair1-2-ratio0.85.png"
+        },
+        {
+          "images": [
+            "0000_google-streetview-2022-number5-front.png",
+            "0001_google-streetview-2022-position2.png"
+          ],
+          "ratio": 0.9,
+          "mutual_matches": 36,
+          "mutual_with_both_ratio_tests_and_07_distance": 19,
+          "fundamental_inliers": 19,
+          "homography_inliers": 7,
+          "distinct_F_inlier_coordinate_pairs_rounded_1px": 17,
+          "fundamental_matrix": [
+            [
+              2.0984635064726434e-07,
+              -4.4006885988566447e-07,
+              -0.00030985775038061547
+            ],
+            [
+              6.092588002905991e-07,
+              -1.954738363361963e-08,
+              -0.001232684938877071
+            ],
+            [
+              -0.0006057678628355045,
+              0.000867272878647185,
+              1.0
+            ]
+          ],
+          "homography_matrix": [
+            [
+              -0.38323214665039435,
+              -0.01564477078423897,
+              1184.2236698512008
+            ],
+            [
+              -0.2769440395642328,
+              0.25296743863915533,
+              539.6397251959121
+            ],
+            [
+              -0.0003978880529263376,
+              1.6215480464333975e-07,
+              1.0
+            ]
+          ],
+          "matches": [
+            {
+              "left_xy_px": [
+                1380.8753662109375,
+                351.6425476074219
+              ],
+              "right_xy_px": [
+                1286.7486572265625,
+                611.4628295898438
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1380.8753662109375,
+                351.6425476074219
+              ],
+              "right_xy_px": [
+                1286.7486572265625,
+                611.4628295898438
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1550.6505126953125,
+                728.276611328125
+              ],
+              "right_xy_px": [
+                1511.2677001953125,
+                781.5277709960938
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1210.57861328125,
+                732.5951538085938
+              ],
+              "right_xy_px": [
+                1669.8758544921875,
+                403.55865478515625
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1247.238037109375,
+                775.2857666015625
+              ],
+              "right_xy_px": [
+                1508.0738525390625,
+                637.7252197265625
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1490.3961181640625,
+                792.2505493164062
+              ],
+              "right_xy_px": [
+                1553.4453125,
+                433.4976501464844
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1412.5667724609375,
+                227.4923858642578
+              ],
+              "right_xy_px": [
+                1509.483642578125,
+                452.0731506347656
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1513.6585693359375,
+                241.13577270507812
+              ],
+              "right_xy_px": [
+                1521.5882568359375,
+                452.34576416015625
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1513.6585693359375,
+                241.13577270507812
+              ],
+              "right_xy_px": [
+                1521.5882568359375,
+                452.34576416015625
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1540.545166015625,
+                300.1247863769531
+              ],
+              "right_xy_px": [
+                1521.34326171875,
+                488.313720703125
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1540.545166015625,
+                300.1247863769531
+              ],
+              "right_xy_px": [
+                1409.26416015625,
+                596.4388427734375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1458.8629150390625,
+                337.9661865234375
+              ],
+              "right_xy_px": [
+                1473.4815673828125,
+                527.069091796875
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1323.334228515625,
+                511.6633605957031
+              ],
+              "right_xy_px": [
+                1524.6270751953125,
+                543.03466796875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1384.7711181640625,
+                535.7155151367188
+              ],
+              "right_xy_px": [
+                1511.0511474609375,
+                644.2796630859375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1528.05859375,
+                590.3134155273438
+              ],
+              "right_xy_px": [
+                1524.1258544921875,
+                681.1556396484375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1220.8892822265625,
+                760.4006958007812
+              ],
+              "right_xy_px": [
+                1621.5318603515625,
+                435.65142822265625
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1343.4664306640625,
+                197.59996032714844
+              ],
+              "right_xy_px": [
+                1525.5318603515625,
+                433.1527099609375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1522.8514404296875,
+                249.90908813476562
+              ],
+              "right_xy_px": [
+                1514.7374267578125,
+                459.3038635253906
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1539.662841796875,
+                323.79718017578125
+              ],
+              "right_xy_px": [
+                1520.75341796875,
+                504.3650817871094
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1236.68212890625,
+                794.3727416992188
+              ],
+              "right_xy_px": [
+                1647.1412353515625,
+                303.3248291015625
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1395.251220703125,
+                465.41436767578125
+              ],
+              "right_xy_px": [
+                1439.67138671875,
+                609.6761474609375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1262.85302734375,
+                600.6754760742188
+              ],
+              "right_xy_px": [
+                1486.8819580078125,
+                732.585693359375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1178.0023193359375,
+                731.3613891601562
+              ],
+              "right_xy_px": [
+                1580.42529296875,
+                471.1923828125
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1374.806640625,
+                212.66378784179688
+              ],
+              "right_xy_px": [
+                1421.919189453125,
+                474.9081726074219
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1394.2261962890625,
+                319.03515625
+              ],
+              "right_xy_px": [
+                1415.7325439453125,
+                532.2109375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1524.9312744140625,
+                327.32757568359375
+              ],
+              "right_xy_px": [
+                1436.2606201171875,
+                527.2784423828125
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1195.628173828125,
+                589.7239379882812
+              ],
+              "right_xy_px": [
+                1366.9644775390625,
+                682.14990234375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1473.9722900390625,
+                339.6042785644531
+              ],
+              "right_xy_px": [
+                1299.8729248046875,
+                604.4984741210938
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1417.408203125,
+                431.54583740234375
+              ],
+              "right_xy_px": [
+                1378.8121337890625,
+                596.3497314453125
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1297.5384521484375,
+                592.0781860351562
+              ],
+              "right_xy_px": [
+                1405.945068359375,
+                683.471923828125
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1204.9443359375,
+                703.3184814453125
+              ],
+              "right_xy_px": [
+                1327.1058349609375,
+                702.494384765625
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1196.3681640625,
+                736.6785278320312
+              ],
+              "right_xy_px": [
+                1313.3712158203125,
+                723.1998291015625
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1539.7991943359375,
+                777.053955078125
+              ],
+              "right_xy_px": [
+                1502.0101318359375,
+                799.4946899414062
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1531.0623779296875,
+                308.0533752441406
+              ],
+              "right_xy_px": [
+                1516.2823486328125,
+                495.1883850097656
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1371.2606201171875,
+                539.0623168945312
+              ],
+              "right_xy_px": [
+                1430.8223876953125,
+                651.8284912109375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1251.622802734375,
+                780.6849975585938
+              ],
+              "right_xy_px": [
+                1526.331298828125,
+                664.2960205078125
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            }
+          ]
+        },
+        {
+          "images": [
+            "0000_google-streetview-2022-number5-front.png",
+            "0002_google-streetview-2022-position3.png"
+          ],
+          "ratio": 0.7,
+          "mutual_matches": 1,
+          "mutual_with_both_ratio_tests_and_07_distance": 0,
+          "fundamental_inliers": 0,
+          "homography_inliers": 0,
+          "distinct_F_inlier_coordinate_pairs_rounded_1px": 0,
+          "fundamental_matrix": null,
+          "homography_matrix": null,
+          "matches": [
+            {
+              "left_xy_px": [
+                1524.4541015625,
+                505.5311584472656
+              ],
+              "right_xy_px": [
+                1345.7008056640625,
+                571.6558227539062
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            }
+          ]
+        },
+        {
+          "images": [
+            "0000_google-streetview-2022-number5-front.png",
+            "0002_google-streetview-2022-position3.png"
+          ],
+          "ratio": 0.8,
+          "mutual_matches": 3,
+          "mutual_with_both_ratio_tests_and_07_distance": 0,
+          "fundamental_inliers": 0,
+          "homography_inliers": 0,
+          "distinct_F_inlier_coordinate_pairs_rounded_1px": 0,
+          "fundamental_matrix": null,
+          "homography_matrix": null,
+          "matches": [
+            {
+              "left_xy_px": [
+                1524.4541015625,
+                505.5311584472656
+              ],
+              "right_xy_px": [
+                1345.7008056640625,
+                571.6558227539062
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1524.9312744140625,
+                327.32757568359375
+              ],
+              "right_xy_px": [
+                1125.33154296875,
+                509.6407775878906
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1178.7808837890625,
+                708.147705078125
+              ],
+              "right_xy_px": [
+                1334.230224609375,
+                729.0457763671875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            }
+          ],
+          "visualization": "colmap_descriptors_independent_bf-pair1-3-ratio0.8.png"
+        },
+        {
+          "images": [
+            "0000_google-streetview-2022-number5-front.png",
+            "0002_google-streetview-2022-position3.png"
+          ],
+          "ratio": 0.85,
+          "mutual_matches": 8,
+          "mutual_with_both_ratio_tests_and_07_distance": 2,
+          "fundamental_inliers": 7,
+          "homography_inliers": 4,
+          "distinct_F_inlier_coordinate_pairs_rounded_1px": 7,
+          "fundamental_matrix": [
+            [
+              1.2453675350362382e-07,
+              -5.99411888096979e-07,
+              0.0002870709684517081
+            ],
+            [
+              7.967791506458682e-07,
+              1.4461518896471265e-06,
+              -0.0018492027225160967
+            ],
+            [
+              -0.0007423318978356797,
+              -0.00031164442352293875,
+              1.0
+            ]
+          ],
+          "homography_matrix": [
+            [
+              -0.7131295167220111,
+              -0.9076222952591264,
+              1375.896771457258
+            ],
+            [
+              -0.35980384648665487,
+              -0.5470726212678898,
+              752.8216324953945
+            ],
+            [
+              -0.0005198133366362402,
+              -0.0006605864449311951,
+              1.0
+            ]
+          ],
+          "matches": [
+            {
+              "left_xy_px": [
+                1524.4541015625,
+                505.5311584472656
+              ],
+              "right_xy_px": [
+                1345.7008056640625,
+                571.6558227539062
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1293.3809814453125,
+                755.9876708984375
+              ],
+              "right_xy_px": [
+                1371.399658203125,
+                737.6995849609375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1540.12744140625,
+                217.64328002929688
+              ],
+              "right_xy_px": [
+                1174.199462890625,
+                644.2755126953125
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1523.174560546875,
+                470.7064514160156
+              ],
+              "right_xy_px": [
+                1198.8341064453125,
+                667.2035522460938
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1524.9312744140625,
+                327.32757568359375
+              ],
+              "right_xy_px": [
+                1125.33154296875,
+                509.6407775878906
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1297.5384521484375,
+                592.0781860351562
+              ],
+              "right_xy_px": [
+                1323.23193359375,
+                578.4972534179688
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1302.2633056640625,
+                781.9555053710938
+              ],
+              "right_xy_px": [
+                1356.73828125,
+                741.7919921875
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1178.7808837890625,
+                708.147705078125
+              ],
+              "right_xy_px": [
+                1334.230224609375,
+                729.0457763671875
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            }
+          ],
+          "visualization": "colmap_descriptors_independent_bf-pair1-3-ratio0.85.png"
+        },
+        {
+          "images": [
+            "0000_google-streetview-2022-number5-front.png",
+            "0002_google-streetview-2022-position3.png"
+          ],
+          "ratio": 0.9,
+          "mutual_matches": 18,
+          "mutual_with_both_ratio_tests_and_07_distance": 10,
+          "fundamental_inliers": 9,
+          "homography_inliers": 4,
+          "distinct_F_inlier_coordinate_pairs_rounded_1px": 9,
+          "fundamental_matrix": [
+            [
+              1.375028572895426e-07,
+              2.8711499132044835e-06,
+              -0.001551045274380769
+            ],
+            [
+              -1.0174873652174857e-06,
+              -1.1146135588222146e-06,
+              0.002082392908071995
+            ],
+            [
+              0.00033476964888812244,
+              -0.003244116791404128,
+              1.0
+            ]
+          ],
+          "homography_matrix": [
+            [
+              -1.1811288664609512,
+              -0.27511786375674635,
+              1475.990936150857
+            ],
+            [
+              -0.6403428792789932,
+              -0.27965848782922037,
+              899.9584592250343
+            ],
+            [
+              -0.0008249851039743812,
+              -0.00016178566962541847,
+              1.0
+            ]
+          ],
+          "matches": [
+            {
+              "left_xy_px": [
+                1296.6995849609375,
+                226.8917694091797
+              ],
+              "right_xy_px": [
+                1321.4085693359375,
+                731.65869140625
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1489.24658203125,
+                226.11497497558594
+              ],
+              "right_xy_px": [
+                1302.3643798828125,
+                453.27490234375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1524.4541015625,
+                505.5311584472656
+              ],
+              "right_xy_px": [
+                1345.7008056640625,
+                571.6558227539062
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1191.5965576171875,
+                772.6680297851562
+              ],
+              "right_xy_px": [
+                1327.238037109375,
+                509.66680908203125
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1550.9703369140625,
+                235.61624145507812
+              ],
+              "right_xy_px": [
+                1324.5126953125,
+                500.82806396484375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1458.8056640625,
+                345.087158203125
+              ],
+              "right_xy_px": [
+                1140.503173828125,
+                559.1428833007812
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1384.7711181640625,
+                535.7155151367188
+              ],
+              "right_xy_px": [
+                1260.9052734375,
+                662.650146484375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1528.05859375,
+                590.3134155273438
+              ],
+              "right_xy_px": [
+                1144.8763427734375,
+                580.8279418945312
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1293.3809814453125,
+                755.9876708984375
+              ],
+              "right_xy_px": [
+                1371.399658203125,
+                737.6995849609375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1540.12744140625,
+                217.64328002929688
+              ],
+              "right_xy_px": [
+                1174.199462890625,
+                644.2755126953125
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1542.4215087890625,
+                242.80545043945312
+              ],
+              "right_xy_px": [
+                1414.216796875,
+                739.0953369140625
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1523.174560546875,
+                470.7064514160156
+              ],
+              "right_xy_px": [
+                1198.8341064453125,
+                667.2035522460938
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1184.4698486328125,
+                592.8809204101562
+              ],
+              "right_xy_px": [
+                1178.4532470703125,
+                332.6404113769531
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1190.8189697265625,
+                748.715576171875
+              ],
+              "right_xy_px": [
+                1318.3846435546875,
+                694.9884643554688
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1524.9312744140625,
+                327.32757568359375
+              ],
+              "right_xy_px": [
+                1125.33154296875,
+                509.6407775878906
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1297.5384521484375,
+                592.0781860351562
+              ],
+              "right_xy_px": [
+                1323.23193359375,
+                578.4972534179688
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1302.2633056640625,
+                781.9555053710938
+              ],
+              "right_xy_px": [
+                1356.73828125,
+                741.7919921875
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1178.7808837890625,
+                708.147705078125
+              ],
+              "right_xy_px": [
+                1334.230224609375,
+                729.0457763671875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            }
+          ]
+        },
+        {
+          "images": [
+            "0001_google-streetview-2022-position2.png",
+            "0002_google-streetview-2022-position3.png"
+          ],
+          "ratio": 0.7,
+          "mutual_matches": 0,
+          "mutual_with_both_ratio_tests_and_07_distance": 0,
+          "fundamental_inliers": 0,
+          "homography_inliers": 0,
+          "distinct_F_inlier_coordinate_pairs_rounded_1px": 0,
+          "fundamental_matrix": null,
+          "homography_matrix": null,
+          "matches": []
+        },
+        {
+          "images": [
+            "0001_google-streetview-2022-position2.png",
+            "0002_google-streetview-2022-position3.png"
+          ],
+          "ratio": 0.8,
+          "mutual_matches": 7,
+          "mutual_with_both_ratio_tests_and_07_distance": 1,
+          "fundamental_inliers": 0,
+          "homography_inliers": 5,
+          "distinct_F_inlier_coordinate_pairs_rounded_1px": 0,
+          "fundamental_matrix": null,
+          "homography_matrix": [
+            [
+              -0.8217334419509676,
+              0.014363223770440754,
+              1304.578955363152
+            ],
+            [
+              -0.24228267721938018,
+              0.07833163661906153,
+              353.5522731857941
+            ],
+            [
+              -0.0006336112645122476,
+              2.272479004962454e-05,
+              1.0
+            ]
+          ],
+          "matches": [
+            {
+              "left_xy_px": [
+                1511.0511474609375,
+                644.2796630859375
+              ],
+              "right_xy_px": [
+                1260.9052734375,
+                662.650146484375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1575.449462890625,
+                476.7762756347656
+              ],
+              "right_xy_px": [
+                1334.230224609375,
+                729.0457763671875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1437.7720947265625,
+                563.9454345703125
+              ],
+              "right_xy_px": [
+                1288.5938720703125,
+                484.9382019042969
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1409.502685546875,
+                575.3836669921875
+              ],
+              "right_xy_px": [
+                1414.216796875,
+                739.0953369140625
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1636.767578125,
+                363.0745849609375
+              ],
+              "right_xy_px": [
+                1323.23193359375,
+                578.4972534179688
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1581.185546875,
+                452.6105041503906
+              ],
+              "right_xy_px": [
+                1396.088134765625,
+                701.4487915039062
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1581.185546875,
+                452.6105041503906
+              ],
+              "right_xy_px": [
+                1396.088134765625,
+                701.4487915039062
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            }
+          ],
+          "visualization": "colmap_descriptors_independent_bf-pair2-3-ratio0.8.png"
+        },
+        {
+          "images": [
+            "0001_google-streetview-2022-position2.png",
+            "0002_google-streetview-2022-position3.png"
+          ],
+          "ratio": 0.85,
+          "mutual_matches": 12,
+          "mutual_with_both_ratio_tests_and_07_distance": 2,
+          "fundamental_inliers": 9,
+          "homography_inliers": 5,
+          "distinct_F_inlier_coordinate_pairs_rounded_1px": 8,
+          "fundamental_matrix": [
+            [
+              2.2597801136369985e-06,
+              -1.428166547916233e-06,
+              -0.0006756103471374647
+            ],
+            [
+              -1.6243494298932067e-06,
+              6.045304871632267e-08,
+              0.0014029191258754237
+            ],
+            [
+              -0.002488009219286158,
+              0.0013026112001306434,
+              1.0
+            ]
+          ],
+          "homography_matrix": [
+            [
+              -0.7843572996591541,
+              -0.5231662768807923,
+              1232.4272513546548
+            ],
+            [
+              -0.19698475171366733,
+              -0.015853368691118523,
+              195.75950662757074
+            ],
+            [
+              -0.0006174334944544689,
+              -0.0004394748279161068,
+              1.0
+            ]
+          ],
+          "matches": [
+            {
+              "left_xy_px": [
+                1616.939453125,
+                363.65106201171875
+              ],
+              "right_xy_px": [
+                1228.1824951171875,
+                391.8126220703125
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1511.0511474609375,
+                644.2796630859375
+              ],
+              "right_xy_px": [
+                1260.9052734375,
+                662.650146484375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1313.57958984375,
+                722.1524658203125
+              ],
+              "right_xy_px": [
+                1368.16650390625,
+                579.711669921875
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1575.449462890625,
+                476.7762756347656
+              ],
+              "right_xy_px": [
+                1334.230224609375,
+                729.0457763671875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1437.7720947265625,
+                563.9454345703125
+              ],
+              "right_xy_px": [
+                1288.5938720703125,
+                484.9382019042969
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1409.502685546875,
+                575.3836669921875
+              ],
+              "right_xy_px": [
+                1414.216796875,
+                739.0953369140625
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1510.5545654296875,
+                590.4119873046875
+              ],
+              "right_xy_px": [
+                1359.80712890625,
+                578.52490234375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1511.2496337890625,
+                739.17138671875
+              ],
+              "right_xy_px": [
+                1178.4532470703125,
+                332.6404113769531
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1636.767578125,
+                363.0745849609375
+              ],
+              "right_xy_px": [
+                1323.23193359375,
+                578.4972534179688
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1581.185546875,
+                452.6105041503906
+              ],
+              "right_xy_px": [
+                1396.088134765625,
+                701.4487915039062
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1581.185546875,
+                452.6105041503906
+              ],
+              "right_xy_px": [
+                1396.088134765625,
+                701.4487915039062
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1629.301513671875,
+                278.51837158203125
+              ],
+              "right_xy_px": [
+                1371.4610595703125,
+                722.6251220703125
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            }
+          ],
+          "visualization": "colmap_descriptors_independent_bf-pair2-3-ratio0.85.png"
+        },
+        {
+          "images": [
+            "0001_google-streetview-2022-position2.png",
+            "0002_google-streetview-2022-position3.png"
+          ],
+          "ratio": 0.9,
+          "mutual_matches": 32,
+          "mutual_with_both_ratio_tests_and_07_distance": 13,
+          "fundamental_inliers": 13,
+          "homography_inliers": 6,
+          "distinct_F_inlier_coordinate_pairs_rounded_1px": 12,
+          "fundamental_matrix": [
+            [
+              3.566872125715381e-07,
+              1.569347437141433e-07,
+              -0.0006579417294396706
+            ],
+            [
+              4.0999126694335475e-08,
+              8.705859350088829e-08,
+              -8.135423680499798e-05
+            ],
+            [
+              -0.0005374202803278827,
+              -0.00029668657527182063,
+              1.0
+            ]
+          ],
+          "homography_matrix": [
+            [
+              -0.5083137402044473,
+              -1.480688736832993,
+              1414.6480028293884
+            ],
+            [
+              -0.2694318129536991,
+              -0.7974996153437842,
+              757.2010327001001
+            ],
+            [
+              -0.00035693012706564846,
+              -0.0010562689687988122,
+              1.0
+            ]
+          ],
+          "matches": [
+            {
+              "left_xy_px": [
+                1616.939453125,
+                363.65106201171875
+              ],
+              "right_xy_px": [
+                1228.1824951171875,
+                391.8126220703125
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1542.6810302734375,
+                448.4808349609375
+              ],
+              "right_xy_px": [
+                1147.8270263671875,
+                661.1138305664062
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1530.259765625,
+                449.5267333984375
+              ],
+              "right_xy_px": [
+                1414.2454833984375,
+                709.2100219726562
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1521.5882568359375,
+                452.34576416015625
+              ],
+              "right_xy_px": [
+                1348.173828125,
+                723.129150390625
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1521.34326171875,
+                488.313720703125
+              ],
+              "right_xy_px": [
+                1178.6549072265625,
+                354.1265869140625
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1345.298095703125,
+                512.2522583007812
+              ],
+              "right_xy_px": [
+                1235.1318359375,
+                648.6171875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1296.89501953125,
+                541.92236328125
+              ],
+              "right_xy_px": [
+                1330.8125,
+                691.0786743164062
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1286.7486572265625,
+                611.4628295898438
+              ],
+              "right_xy_px": [
+                1324.5126953125,
+                500.82806396484375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1504.32568359375,
+                613.820556640625
+              ],
+              "right_xy_px": [
+                1371.399658203125,
+                737.6995849609375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1511.0511474609375,
+                644.2796630859375
+              ],
+              "right_xy_px": [
+                1260.9052734375,
+                662.650146484375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1307.18603515625,
+                703.5044555664062
+              ],
+              "right_xy_px": [
+                1176.3505859375,
+                654.6442260742188
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1313.57958984375,
+                722.1524658203125
+              ],
+              "right_xy_px": [
+                1368.16650390625,
+                579.711669921875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1349.3001708984375,
+                773.2454223632812
+              ],
+              "right_xy_px": [
+                1356.73828125,
+                741.7919921875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1526.01708984375,
+                439.0693359375
+              ],
+              "right_xy_px": [
+                1321.125244140625,
+                486.4897155761719
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1575.449462890625,
+                476.7762756347656
+              ],
+              "right_xy_px": [
+                1334.230224609375,
+                729.0457763671875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1300.1380615234375,
+                531.8536376953125
+              ],
+              "right_xy_px": [
+                1305.7708740234375,
+                667.6205444335938
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1437.7720947265625,
+                563.9454345703125
+              ],
+              "right_xy_px": [
+                1288.5938720703125,
+                484.9382019042969
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1409.502685546875,
+                575.3836669921875
+              ],
+              "right_xy_px": [
+                1414.216796875,
+                739.0953369140625
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1510.5545654296875,
+                590.4119873046875
+              ],
+              "right_xy_px": [
+                1359.80712890625,
+                578.52490234375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1511.2496337890625,
+                739.17138671875
+              ],
+              "right_xy_px": [
+                1178.4532470703125,
+                332.6404113769531
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1362.8575439453125,
+                792.0336303710938
+              ],
+              "right_xy_px": [
+                1159.416015625,
+                518.0068969726562
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1636.767578125,
+                363.0745849609375
+              ],
+              "right_xy_px": [
+                1323.23193359375,
+                578.4972534179688
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1581.185546875,
+                452.6105041503906
+              ],
+              "right_xy_px": [
+                1396.088134765625,
+                701.4487915039062
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1581.185546875,
+                452.6105041503906
+              ],
+              "right_xy_px": [
+                1396.088134765625,
+                701.4487915039062
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1520.75341796875,
+                504.3650817871094
+              ],
+              "right_xy_px": [
+                1394.9677734375,
+                725.91796875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1292.01025390625,
+                534.2295532226562
+              ],
+              "right_xy_px": [
+                1159.0499267578125,
+                651.07958984375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1511.271484375,
+                547.413818359375
+              ],
+              "right_xy_px": [
+                1294.011962890625,
+                488.4618225097656
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1533.2894287109375,
+                549.21728515625
+              ],
+              "right_xy_px": [
+                1414.4873046875,
+                753.8792114257812
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1379.52392578125,
+                786.2830200195312
+              ],
+              "right_xy_px": [
+                1375.8568115234375,
+                759.4046630859375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1414.4908447265625,
+                760.3336181640625
+              ],
+              "right_xy_px": [
+                1222.7197265625,
+                644.0562133789062
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1385.781494140625,
+                541.3553466796875
+              ],
+              "right_xy_px": [
+                1288.8482666015625,
+                613.3768920898438
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1629.301513671875,
+                278.51837158203125
+              ],
+              "right_xy_px": [
+                1371.4610595703125,
+                722.6251220703125
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            }
+          ]
+        }
+      ]
+    },
+    "opencv_rootsift": {
+      "features": [
+        {
+          "image": "0000_google-streetview-2022-number5-front.png",
+          "count": 2038
+        },
+        {
+          "image": "0001_google-streetview-2022-position2.png",
+          "count": 1013
+        },
+        {
+          "image": "0002_google-streetview-2022-position3.png",
+          "count": 530
+        }
+      ],
+      "pairs": [
+        {
+          "images": [
+            "0000_google-streetview-2022-number5-front.png",
+            "0001_google-streetview-2022-position2.png"
+          ],
+          "ratio": 0.7,
+          "mutual_matches": 7,
+          "mutual_with_both_ratio_tests_and_07_distance": 7,
+          "fundamental_inliers": 0,
+          "homography_inliers": 5,
+          "distinct_F_inlier_coordinate_pairs_rounded_1px": 0,
+          "fundamental_matrix": null,
+          "homography_matrix": [
+            [
+              -0.2720987376422163,
+              0.1087428001060848,
+              1066.757705049309
+            ],
+            [
+              -0.2747208862586094,
+              0.33333779331869673,
+              541.4173093267938
+            ],
+            [
+              -0.0003698833247316436,
+              5.799606674987644e-05,
+              1.0
+            ]
+          ],
+          "matches": [
+            {
+              "left_xy_px": [
+                1329.093505859375,
+                729.0982055664062
+              ],
+              "right_xy_px": [
+                1424.4278564453125,
+                761.4714965820312
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1329.093505859375,
+                729.0982055664062
+              ],
+              "right_xy_px": [
+                1424.4278564453125,
+                761.4714965820312
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1371.4488525390625,
+                538.9038696289062
+              ],
+              "right_xy_px": [
+                1430.703125,
+                651.5752563476562
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1394.8529052734375,
+                465.5266418457031
+              ],
+              "right_xy_px": [
+                1362.810791015625,
+                618.9828491210938
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1403.8463134765625,
+                327.3145751953125
+              ],
+              "right_xy_px": [
+                1441.52880859375,
+                530.0084228515625
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1535.5137939453125,
+                589.6435546875
+              ],
+              "right_xy_px": [
+                1529.409423828125,
+                678.0472412109375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1531.3853759765625,
+                322.6106872558594
+              ],
+              "right_xy_px": [
+                1514.8955078125,
+                504.6741027832031
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            }
+          ]
+        },
+        {
+          "images": [
+            "0000_google-streetview-2022-number5-front.png",
+            "0001_google-streetview-2022-position2.png"
+          ],
+          "ratio": 0.8,
+          "mutual_matches": 18,
+          "mutual_with_both_ratio_tests_and_07_distance": 13,
+          "fundamental_inliers": 13,
+          "homography_inliers": 6,
+          "distinct_F_inlier_coordinate_pairs_rounded_1px": 12,
+          "fundamental_matrix": [
+            [
+              5.367743689057102e-08,
+              7.941769034237515e-06,
+              -0.0050273754321884
+            ],
+            [
+              1.901140841179611e-06,
+              1.0788247939247952e-06,
+              -0.012419839025890079
+            ],
+            [
+              -0.001372444389012424,
+              -0.006799025102267863,
+              12.524756491127814
+            ]
+          ],
+          "homography_matrix": [
+            [
+              -0.8084031389330564,
+              -0.3454410564518765,
+              1454.5695147348504
+            ],
+            [
+              -0.38991932979985466,
+              -0.11153806163182592,
+              668.1298292156242
+            ],
+            [
+              -0.0005596950597909163,
+              -0.0002277686761066551,
+              1.0
+            ]
+          ],
+          "matches": [
+            {
+              "left_xy_px": [
+                1241.64892578125,
+                773.429931640625
+              ],
+              "right_xy_px": [
+                1424.7740478515625,
+                758.1536254882812
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1241.64892578125,
+                773.429931640625
+              ],
+              "right_xy_px": [
+                1424.7740478515625,
+                758.1536254882812
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1276.04150390625,
+                584.2034912109375
+              ],
+              "right_xy_px": [
+                1468.761962890625,
+                523.4260864257812
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1329.093505859375,
+                729.0982055664062
+              ],
+              "right_xy_px": [
+                1424.4278564453125,
+                761.4714965820312
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1329.093505859375,
+                729.0982055664062
+              ],
+              "right_xy_px": [
+                1424.4278564453125,
+                761.4714965820312
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1371.4488525390625,
+                538.9038696289062
+              ],
+              "right_xy_px": [
+                1430.703125,
+                651.5752563476562
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1394.8529052734375,
+                465.5266418457031
+              ],
+              "right_xy_px": [
+                1362.810791015625,
+                618.9828491210938
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1403.8463134765625,
+                327.3145751953125
+              ],
+              "right_xy_px": [
+                1441.52880859375,
+                530.0084228515625
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1445.897216796875,
+                220.25070190429688
+              ],
+              "right_xy_px": [
+                1499.5821533203125,
+                449.8276672363281
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1526.0018310546875,
+                707.650390625
+              ],
+              "right_xy_px": [
+                1493.0777587890625,
+                756.9920043945312
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1534.1033935546875,
+                599.4892578125
+              ],
+              "right_xy_px": [
+                1514.4603271484375,
+                639.8668823242188
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1535.5137939453125,
+                589.6435546875
+              ],
+              "right_xy_px": [
+                1529.409423828125,
+                678.0472412109375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1495.8953857421875,
+                226.8212890625
+              ],
+              "right_xy_px": [
+                1494.0513916015625,
+                453.5025634765625
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1458.5733642578125,
+                344.3049621582031
+              ],
+              "right_xy_px": [
+                1473.56640625,
+                530.5601196289062
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1226.83984375,
+                772.25634765625
+              ],
+              "right_xy_px": [
+                1494.8798828125,
+                596.872314453125
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1364.8502197265625,
+                543.0504150390625
+              ],
+              "right_xy_px": [
+                1427.7225341796875,
+                654.1668701171875
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1296.943603515625,
+                591.8023681640625
+              ],
+              "right_xy_px": [
+                1405.6204833984375,
+                683.2098388671875
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1531.3853759765625,
+                322.6106872558594
+              ],
+              "right_xy_px": [
+                1514.8955078125,
+                504.6741027832031
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            }
+          ],
+          "visualization": "opencv_rootsift-pair1-2-ratio0.8.png"
+        },
+        {
+          "images": [
+            "0000_google-streetview-2022-number5-front.png",
+            "0001_google-streetview-2022-position2.png"
+          ],
+          "ratio": 0.85,
+          "mutual_matches": 36,
+          "mutual_with_both_ratio_tests_and_07_distance": 20,
+          "fundamental_inliers": 19,
+          "homography_inliers": 7,
+          "distinct_F_inlier_coordinate_pairs_rounded_1px": 18,
+          "fundamental_matrix": [
+            [
+              6.1769628879884196e-09,
+              -7.42770154021589e-06,
+              0.004550633306610561
+            ],
+            [
+              -1.7426857013749687e-06,
+              -9.76515703912894e-07,
+              0.011512416167897737
+            ],
+            [
+              0.0012062164527514338,
+              0.006356801905686975,
+              -11.478443324957341
+            ]
+          ],
+          "homography_matrix": [
+            [
+              -0.29502148593541366,
+              -0.0571604281339045,
+              1340.5025098187482
+            ],
+            [
+              -0.20022049550184065,
+              0.4190062732010761,
+              461.13208109283084
+            ],
+            [
+              -0.0002897353931357645,
+              5.624134180359658e-05,
+              1.0
+            ]
+          ],
+          "matches": [
+            {
+              "left_xy_px": [
+                1237.1527099609375,
+                753.6616821289062
+              ],
+              "right_xy_px": [
+                1515.0455322265625,
+                642.2005615234375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1241.64892578125,
+                773.429931640625
+              ],
+              "right_xy_px": [
+                1424.7740478515625,
+                758.1536254882812
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1241.64892578125,
+                773.429931640625
+              ],
+              "right_xy_px": [
+                1424.7740478515625,
+                758.1536254882812
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1276.04150390625,
+                584.2034912109375
+              ],
+              "right_xy_px": [
+                1468.761962890625,
+                523.4260864257812
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1281.3570556640625,
+                204.0679473876953
+              ],
+              "right_xy_px": [
+                1485.06396484375,
+                454.0414123535156
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1329.093505859375,
+                729.0982055664062
+              ],
+              "right_xy_px": [
+                1424.4278564453125,
+                761.4714965820312
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1329.093505859375,
+                729.0982055664062
+              ],
+              "right_xy_px": [
+                1424.4278564453125,
+                761.4714965820312
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1371.4488525390625,
+                538.9038696289062
+              ],
+              "right_xy_px": [
+                1430.703125,
+                651.5752563476562
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1393.0838623046875,
+                220.2978057861328
+              ],
+              "right_xy_px": [
+                1457.2421875,
+                466.0509338378906
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1394.8529052734375,
+                465.5266418457031
+              ],
+              "right_xy_px": [
+                1362.810791015625,
+                618.9828491210938
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1397.4559326171875,
+                205.37777709960938
+              ],
+              "right_xy_px": [
+                1534.2303466796875,
+                554.9691162109375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1403.8463134765625,
+                327.3145751953125
+              ],
+              "right_xy_px": [
+                1441.52880859375,
+                530.0084228515625
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1409.6114501953125,
+                214.96026611328125
+              ],
+              "right_xy_px": [
+                1485.06396484375,
+                454.0414123535156
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1445.897216796875,
+                220.25070190429688
+              ],
+              "right_xy_px": [
+                1499.5821533203125,
+                449.8276672363281
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1521.14013671875,
+                586.7766723632812
+              ],
+              "right_xy_px": [
+                1504.4814453125,
+                514.9320678710938
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1526.0018310546875,
+                707.650390625
+              ],
+              "right_xy_px": [
+                1493.0777587890625,
+                756.9920043945312
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1526.2835693359375,
+                473.9159851074219
+              ],
+              "right_xy_px": [
+                1418.9649658203125,
+                613.3869018554688
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1534.1033935546875,
+                599.4892578125
+              ],
+              "right_xy_px": [
+                1514.4603271484375,
+                639.8668823242188
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1535.5137939453125,
+                589.6435546875
+              ],
+              "right_xy_px": [
+                1529.409423828125,
+                678.0472412109375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1542.360107421875,
+                365.3023681640625
+              ],
+              "right_xy_px": [
+                1359.0589599609375,
+                602.5449829101562
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1535.436767578125,
+                584.300537109375
+              ],
+              "right_xy_px": [
+                1436.537841796875,
+                648.914794921875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1523.29833984375,
+                215.1542510986328
+              ],
+              "right_xy_px": [
+                1511.4932861328125,
+                626.52880859375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1495.8953857421875,
+                226.8212890625
+              ],
+              "right_xy_px": [
+                1494.0513916015625,
+                453.5025634765625
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1458.5733642578125,
+                344.3049621582031
+              ],
+              "right_xy_px": [
+                1473.56640625,
+                530.5601196289062
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1458.5733642578125,
+                344.3049621582031
+              ],
+              "right_xy_px": [
+                1288.7095947265625,
+                690.1070556640625
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1194.86962890625,
+                589.4353637695312
+              ],
+              "right_xy_px": [
+                1366.6607666015625,
+                681.8984375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1195.6331787109375,
+                748.6454467773438
+              ],
+              "right_xy_px": [
+                1333.633056640625,
+                751.5595703125
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1205.114501953125,
+                735.7252807617188
+              ],
+              "right_xy_px": [
+                1500.0482177734375,
+                554.1239013671875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1221.9818115234375,
+                776.927978515625
+              ],
+              "right_xy_px": [
+                1356.357177734375,
+                785.92626953125
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1378.7156982421875,
+                218.64968872070312
+              ],
+              "right_xy_px": [
+                1503.8446044921875,
+                450.0521545410156
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1226.83984375,
+                772.25634765625
+              ],
+              "right_xy_px": [
+                1494.8798828125,
+                596.872314453125
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1364.8502197265625,
+                543.0504150390625
+              ],
+              "right_xy_px": [
+                1427.7225341796875,
+                654.1668701171875
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1356.295654296875,
+                208.40625
+              ],
+              "right_xy_px": [
+                1286.6092529296875,
+                559.6685180664062
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1296.943603515625,
+                591.8023681640625
+              ],
+              "right_xy_px": [
+                1405.6204833984375,
+                683.2098388671875
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1531.3853759765625,
+                322.6106872558594
+              ],
+              "right_xy_px": [
+                1514.8955078125,
+                504.6741027832031
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1291.5413818359375,
+                760.4573974609375
+              ],
+              "right_xy_px": [
+                1511.2392578125,
+                547.2271728515625
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            }
+          ],
+          "visualization": "opencv_rootsift-pair1-2-ratio0.85.png"
+        },
+        {
+          "images": [
+            "0000_google-streetview-2022-number5-front.png",
+            "0001_google-streetview-2022-position2.png"
+          ],
+          "ratio": 0.9,
+          "mutual_matches": 58,
+          "mutual_with_both_ratio_tests_and_07_distance": 29,
+          "fundamental_inliers": 26,
+          "homography_inliers": 9,
+          "distinct_F_inlier_coordinate_pairs_rounded_1px": 24,
+          "fundamental_matrix": [
+            [
+              4.6768328514549114e-08,
+              -7.2446922514995735e-06,
+              0.00434081171933758
+            ],
+            [
+              -1.5937483552808372e-06,
+              -8.465874562603461e-07,
+              0.011019192364753256
+            ],
+            [
+              0.0010657814823998918,
+              0.006149984895687673,
+              -10.951448496470663
+            ]
+          ],
+          "homography_matrix": [
+            [
+              -0.4587123959741741,
+              -0.0916310021533049,
+              1192.7547334980632
+            ],
+            [
+              -0.299952656246625,
+              0.1532437858296335,
+              562.8849973273427
+            ],
+            [
+              -0.00043497018103983353,
+              -8.155771859782335e-05,
+              1.0
+            ]
+          ],
+          "matches": [
+            {
+              "left_xy_px": [
+                1231.11767578125,
+                774.8335571289062
+              ],
+              "right_xy_px": [
+                1341.2708740234375,
+                758.9839477539062
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1237.1527099609375,
+                753.6616821289062
+              ],
+              "right_xy_px": [
+                1515.0455322265625,
+                642.2005615234375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1241.64892578125,
+                773.429931640625
+              ],
+              "right_xy_px": [
+                1424.7740478515625,
+                758.1536254882812
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1241.64892578125,
+                773.429931640625
+              ],
+              "right_xy_px": [
+                1424.7740478515625,
+                758.1536254882812
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1276.04150390625,
+                584.2034912109375
+              ],
+              "right_xy_px": [
+                1468.761962890625,
+                523.4260864257812
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1277.1029052734375,
+                65.31769561767578
+              ],
+              "right_xy_px": [
+                1532.8922119140625,
+                379.5805969238281
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1281.3570556640625,
+                204.0679473876953
+              ],
+              "right_xy_px": [
+                1485.06396484375,
+                454.0414123535156
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1286.1453857421875,
+                213.98863220214844
+              ],
+              "right_xy_px": [
+                1548.2872314453125,
+                475.67767333984375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1329.093505859375,
+                729.0982055664062
+              ],
+              "right_xy_px": [
+                1424.4278564453125,
+                761.4714965820312
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1329.093505859375,
+                729.0982055664062
+              ],
+              "right_xy_px": [
+                1424.4278564453125,
+                761.4714965820312
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1329.2218017578125,
+                196.30413818359375
+              ],
+              "right_xy_px": [
+                1392.2611083984375,
+                478.6875915527344
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1371.4488525390625,
+                538.9038696289062
+              ],
+              "right_xy_px": [
+                1430.703125,
+                651.5752563476562
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1393.0838623046875,
+                220.2978057861328
+              ],
+              "right_xy_px": [
+                1457.2421875,
+                466.0509338378906
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1393.0838623046875,
+                220.2978057861328
+              ],
+              "right_xy_px": [
+                1471.3812255859375,
+                461.37603759765625
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1394.8529052734375,
+                465.5266418457031
+              ],
+              "right_xy_px": [
+                1362.810791015625,
+                618.9828491210938
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1397.4559326171875,
+                205.37777709960938
+              ],
+              "right_xy_px": [
+                1534.2303466796875,
+                554.9691162109375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1403.8463134765625,
+                327.3145751953125
+              ],
+              "right_xy_px": [
+                1441.52880859375,
+                530.0084228515625
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1409.6114501953125,
+                214.96026611328125
+              ],
+              "right_xy_px": [
+                1485.06396484375,
+                454.0414123535156
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1414.53857421875,
+                169.72537231445312
+              ],
+              "right_xy_px": [
+                1387.4012451171875,
+                453.15679931640625
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1445.897216796875,
+                220.25070190429688
+              ],
+              "right_xy_px": [
+                1499.5821533203125,
+                449.8276672363281
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1453.408447265625,
+                339.44305419921875
+              ],
+              "right_xy_px": [
+                1520.8834228515625,
+                488.2936096191406
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1467.281005859375,
+                292.2522277832031
+              ],
+              "right_xy_px": [
+                1453.6160888671875,
+                527.1060180664062
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1502.191162109375,
+                213.61087036132812
+              ],
+              "right_xy_px": [
+                1362.4566650390625,
+                784.053466796875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1521.14013671875,
+                586.7766723632812
+              ],
+              "right_xy_px": [
+                1504.4814453125,
+                514.9320678710938
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1526.0018310546875,
+                707.650390625
+              ],
+              "right_xy_px": [
+                1493.0777587890625,
+                756.9920043945312
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1526.2835693359375,
+                473.9159851074219
+              ],
+              "right_xy_px": [
+                1418.9649658203125,
+                613.3869018554688
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1531.7994384765625,
+                768.8060302734375
+              ],
+              "right_xy_px": [
+                1498.7965087890625,
+                795.4859619140625
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1534.1033935546875,
+                599.4892578125
+              ],
+              "right_xy_px": [
+                1514.4603271484375,
+                639.8668823242188
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1535.5137939453125,
+                589.6435546875
+              ],
+              "right_xy_px": [
+                1529.409423828125,
+                678.0472412109375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1537.84228515625,
+                232.90061950683594
+              ],
+              "right_xy_px": [
+                1517.416015625,
+                615.8826904296875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1542.360107421875,
+                365.3023681640625
+              ],
+              "right_xy_px": [
+                1359.0589599609375,
+                602.5449829101562
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1555.7000732421875,
+                250.97483825683594
+              ],
+              "right_xy_px": [
+                1333.9154052734375,
+                515.0587768554688
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1535.436767578125,
+                584.300537109375
+              ],
+              "right_xy_px": [
+                1436.537841796875,
+                648.914794921875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1528.9625244140625,
+                214.89120483398438
+              ],
+              "right_xy_px": [
+                1534.2303466796875,
+                554.9691162109375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1525.06787109375,
+                327.03594970703125
+              ],
+              "right_xy_px": [
+                1435.94189453125,
+                527.0240478515625
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1524.4503173828125,
+                203.92332458496094
+              ],
+              "right_xy_px": [
+                1482.037109375,
+                461.1848449707031
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1523.29833984375,
+                215.1542510986328
+              ],
+              "right_xy_px": [
+                1511.4932861328125,
+                626.52880859375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1520.8599853515625,
+                237.0740203857422
+              ],
+              "right_xy_px": [
+                1285.7596435546875,
+                563.8700561523438
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1495.8953857421875,
+                226.8212890625
+              ],
+              "right_xy_px": [
+                1494.0513916015625,
+                453.5025634765625
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1484.92578125,
+                790.94873046875
+              ],
+              "right_xy_px": [
+                1377.5426025390625,
+                501.88616943359375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1458.5733642578125,
+                344.3049621582031
+              ],
+              "right_xy_px": [
+                1473.56640625,
+                530.5601196289062
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1458.5733642578125,
+                344.3049621582031
+              ],
+              "right_xy_px": [
+                1288.7095947265625,
+                690.1070556640625
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1194.86962890625,
+                589.4353637695312
+              ],
+              "right_xy_px": [
+                1366.6607666015625,
+                681.8984375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1195.6331787109375,
+                748.6454467773438
+              ],
+              "right_xy_px": [
+                1333.633056640625,
+                751.5595703125
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1205.114501953125,
+                735.7252807617188
+              ],
+              "right_xy_px": [
+                1500.0482177734375,
+                554.1239013671875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1221.9818115234375,
+                776.927978515625
+              ],
+              "right_xy_px": [
+                1356.357177734375,
+                785.92626953125
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1378.7156982421875,
+                218.64968872070312
+              ],
+              "right_xy_px": [
+                1503.8446044921875,
+                450.0521545410156
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1226.83984375,
+                772.25634765625
+              ],
+              "right_xy_px": [
+                1494.8798828125,
+                596.872314453125
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1232.5040283203125,
+                782.373291015625
+              ],
+              "right_xy_px": [
+                1532.0489501953125,
+                534.9423828125
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1233.31103515625,
+                789.1948852539062
+              ],
+              "right_xy_px": [
+                1500.6923828125,
+                616.9954223632812
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1364.8502197265625,
+                543.0504150390625
+              ],
+              "right_xy_px": [
+                1427.7225341796875,
+                654.1668701171875
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1360.4107666015625,
+                223.3186798095703
+              ],
+              "right_xy_px": [
+                1543.1861572265625,
+                456.7270202636719
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1356.295654296875,
+                208.40625
+              ],
+              "right_xy_px": [
+                1286.6092529296875,
+                559.6685180664062
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1281.812744140625,
+                595.1600952148438
+              ],
+              "right_xy_px": [
+                1396.711669921875,
+                683.0435791015625
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1281.812744140625,
+                595.1600952148438
+              ],
+              "right_xy_px": [
+                1396.711669921875,
+                683.0435791015625
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1296.943603515625,
+                591.8023681640625
+              ],
+              "right_xy_px": [
+                1405.6204833984375,
+                683.2098388671875
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1531.3853759765625,
+                322.6106872558594
+              ],
+              "right_xy_px": [
+                1514.8955078125,
+                504.6741027832031
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1291.5413818359375,
+                760.4573974609375
+              ],
+              "right_xy_px": [
+                1511.2392578125,
+                547.2271728515625
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            }
+          ]
+        },
+        {
+          "images": [
+            "0000_google-streetview-2022-number5-front.png",
+            "0002_google-streetview-2022-position3.png"
+          ],
+          "ratio": 0.7,
+          "mutual_matches": 1,
+          "mutual_with_both_ratio_tests_and_07_distance": 0,
+          "fundamental_inliers": 0,
+          "homography_inliers": 0,
+          "distinct_F_inlier_coordinate_pairs_rounded_1px": 0,
+          "fundamental_matrix": null,
+          "homography_matrix": null,
+          "matches": [
+            {
+              "left_xy_px": [
+                1467.281005859375,
+                292.2522277832031
+              ],
+              "right_xy_px": [
+                1227.859375,
+                391.5257263183594
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            }
+          ]
+        },
+        {
+          "images": [
+            "0000_google-streetview-2022-number5-front.png",
+            "0002_google-streetview-2022-position3.png"
+          ],
+          "ratio": 0.8,
+          "mutual_matches": 4,
+          "mutual_with_both_ratio_tests_and_07_distance": 2,
+          "fundamental_inliers": 0,
+          "homography_inliers": 0,
+          "distinct_F_inlier_coordinate_pairs_rounded_1px": 0,
+          "fundamental_matrix": null,
+          "homography_matrix": null,
+          "matches": [
+            {
+              "left_xy_px": [
+                1467.281005859375,
+                292.2522277832031
+              ],
+              "right_xy_px": [
+                1227.859375,
+                391.5257263183594
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1537.84228515625,
+                232.90061950683594
+              ],
+              "right_xy_px": [
+                1198.041748046875,
+                666.3685302734375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1230.526123046875,
+                755.9485473632812
+              ],
+              "right_xy_px": [
+                1161.369873046875,
+                503.4476013183594
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1282.4591064453125,
+                208.14837646484375
+              ],
+              "right_xy_px": [
+                1326.5899658203125,
+                732.08740234375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            }
+          ],
+          "visualization": "opencv_rootsift-pair1-3-ratio0.8.png"
+        },
+        {
+          "images": [
+            "0000_google-streetview-2022-number5-front.png",
+            "0002_google-streetview-2022-position3.png"
+          ],
+          "ratio": 0.85,
+          "mutual_matches": 17,
+          "mutual_with_both_ratio_tests_and_07_distance": 5,
+          "fundamental_inliers": 9,
+          "homography_inliers": 5,
+          "distinct_F_inlier_coordinate_pairs_rounded_1px": 9,
+          "fundamental_matrix": [
+            [
+              4.342714879247006e-07,
+              2.921054125830033e-07,
+              -0.0007170492749519752
+            ],
+            [
+              2.505110942643829e-07,
+              1.097864283251121e-07,
+              -0.00042169035949513045
+            ],
+            [
+              -0.0006032045983515033,
+              -0.0003792898107696993,
+              1.0
+            ]
+          ],
+          "homography_matrix": [
+            [
+              -0.7026039661523642,
+              -0.4021875124449215,
+              1177.7049460807639
+            ],
+            [
+              -0.231208986274477,
+              -0.059683996357970434,
+              373.270802482197
+            ],
+            [
+              -0.0006008428460591661,
+              -0.00032213404606642375,
+              1.0
+            ]
+          ],
+          "matches": [
+            {
+              "left_xy_px": [
+                1224.147705078125,
+                749.8516845703125
+              ],
+              "right_xy_px": [
+                1346.4488525390625,
+                680.5344848632812
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1237.6888427734375,
+                163.97320556640625
+              ],
+              "right_xy_px": [
+                1294.3101806640625,
+                411.85540771484375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1269.14404296875,
+                698.9539184570312
+              ],
+              "right_xy_px": [
+                1395.935791015625,
+                701.1922607421875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1340.4609375,
+                60.647674560546875
+              ],
+              "right_xy_px": [
+                1208.1785888671875,
+                341.17181396484375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1390.744140625,
+                469.821533203125
+              ],
+              "right_xy_px": [
+                1305.0382080078125,
+                663.7880249023438
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1467.281005859375,
+                292.2522277832031
+              ],
+              "right_xy_px": [
+                1227.859375,
+                391.5257263183594
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1524.9893798828125,
+                232.15306091308594
+              ],
+              "right_xy_px": [
+                1440.3878173828125,
+                763.5720825195312
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1537.84228515625,
+                232.90061950683594
+              ],
+              "right_xy_px": [
+                1198.041748046875,
+                666.3685302734375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1538.3287353515625,
+                592.4507446289062
+              ],
+              "right_xy_px": [
+                1293.8250732421875,
+                455.6542053222656
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1525.06787109375,
+                327.03594970703125
+              ],
+              "right_xy_px": [
+                1125.1123046875,
+                509.39849853515625
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1415.5302734375,
+                96.11581420898438
+              ],
+              "right_xy_px": [
+                1158.829345703125,
+                650.8325805664062
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1397.058349609375,
+                114.42923736572266
+              ],
+              "right_xy_px": [
+                1211.3231201171875,
+                350.12689208984375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1230.526123046875,
+                755.9485473632812
+              ],
+              "right_xy_px": [
+                1161.369873046875,
+                503.4476013183594
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1282.4591064453125,
+                208.14837646484375
+              ],
+              "right_xy_px": [
+                1326.5899658203125,
+                732.08740234375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1296.943603515625,
+                591.8023681640625
+              ],
+              "right_xy_px": [
+                1322.90478515625,
+                578.502685546875
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1398.4315185546875,
+                348.94647216796875
+              ],
+              "right_xy_px": [
+                1157.632080078125,
+                614.8115844726562
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1475.9891357421875,
+                174.3367156982422
+              ],
+              "right_xy_px": [
+                1237.7152099609375,
+                378.9948425292969
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            }
+          ],
+          "visualization": "opencv_rootsift-pair1-3-ratio0.85.png"
+        },
+        {
+          "images": [
+            "0000_google-streetview-2022-number5-front.png",
+            "0002_google-streetview-2022-position3.png"
+          ],
+          "ratio": 0.9,
+          "mutual_matches": 35,
+          "mutual_with_both_ratio_tests_and_07_distance": 13,
+          "fundamental_inliers": 11,
+          "homography_inliers": 5,
+          "distinct_F_inlier_coordinate_pairs_rounded_1px": 11,
+          "fundamental_matrix": [
+            [
+              4.887884754653515e-07,
+              1.796046312542432e-07,
+              -0.0007718144934341087
+            ],
+            [
+              1.3669684709302285e-07,
+              4.364414623279911e-08,
+              -0.00020894373524926735
+            ],
+            [
+              -0.0006342158524603736,
+              -0.00023219577291921922,
+              1.0
+            ]
+          ],
+          "homography_matrix": [
+            [
+              -1.075724091287865,
+              1.0177481795418637,
+              1169.1734513010576
+            ],
+            [
+              -0.4515624779432161,
+              0.44222382117180253,
+              487.8590925320436
+            ],
+            [
+              -0.0009212537801496852,
+              0.0008770605711814435,
+              1.0
+            ]
+          ],
+          "matches": [
+            {
+              "left_xy_px": [
+                1210.8189697265625,
+                54.861446380615234
+              ],
+              "right_xy_px": [
+                1345.4666748046875,
+                718.9468994140625
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1224.147705078125,
+                749.8516845703125
+              ],
+              "right_xy_px": [
+                1346.4488525390625,
+                680.5344848632812
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1231.11767578125,
+                774.8335571289062
+              ],
+              "right_xy_px": [
+                1161.369873046875,
+                503.4476013183594
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1237.6888427734375,
+                163.97320556640625
+              ],
+              "right_xy_px": [
+                1294.3101806640625,
+                411.85540771484375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1269.14404296875,
+                698.9539184570312
+              ],
+              "right_xy_px": [
+                1395.935791015625,
+                701.1922607421875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1289.5938720703125,
+                78.73961639404297
+              ],
+              "right_xy_px": [
+                1164.328369140625,
+                533.048095703125
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1340.4609375,
+                60.647674560546875
+              ],
+              "right_xy_px": [
+                1208.1785888671875,
+                341.17181396484375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1349.367919921875,
+                316.5199279785156
+              ],
+              "right_xy_px": [
+                1166.434814453125,
+                612.14794921875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1371.4488525390625,
+                538.9038696289062
+              ],
+              "right_xy_px": [
+                1415.2293701171875,
+                730.0897827148438
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1390.744140625,
+                469.821533203125
+              ],
+              "right_xy_px": [
+                1305.0382080078125,
+                663.7880249023438
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1392.6068115234375,
+                127.89116668701172
+              ],
+              "right_xy_px": [
+                1158.829345703125,
+                650.8325805664062
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1394.8529052734375,
+                465.5266418457031
+              ],
+              "right_xy_px": [
+                1295.5029296875,
+                494.2715759277344
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1422.8828125,
+                233.2238006591797
+              ],
+              "right_xy_px": [
+                1317.2325439453125,
+                690.4013671875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1467.281005859375,
+                292.2522277832031
+              ],
+              "right_xy_px": [
+                1227.859375,
+                391.5257263183594
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1485.259033203125,
+                192.58883666992188
+              ],
+              "right_xy_px": [
+                1271.68408203125,
+                399.6862487792969
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1524.9893798828125,
+                232.15306091308594
+              ],
+              "right_xy_px": [
+                1440.3878173828125,
+                763.5720825195312
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1526.2835693359375,
+                473.9159851074219
+              ],
+              "right_xy_px": [
+                1163.5367431640625,
+                514.5853881835938
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1537.84228515625,
+                232.90061950683594
+              ],
+              "right_xy_px": [
+                1198.041748046875,
+                666.3685302734375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1538.3287353515625,
+                592.4507446289062
+              ],
+              "right_xy_px": [
+                1293.8250732421875,
+                455.6542053222656
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1549.0068359375,
+                562.1220092773438
+              ],
+              "right_xy_px": [
+                1136.11083984375,
+                560.2567749023438
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1529.896484375,
+                469.4477233886719
+              ],
+              "right_xy_px": [
+                1394.26025390625,
+                753.6644287109375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1525.06787109375,
+                327.03594970703125
+              ],
+              "right_xy_px": [
+                1125.1123046875,
+                509.39849853515625
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1516.501953125,
+                789.3154296875
+              ],
+              "right_xy_px": [
+                1391.427490234375,
+                756.3618774414062
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1415.5302734375,
+                96.11581420898438
+              ],
+              "right_xy_px": [
+                1158.829345703125,
+                650.8325805664062
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1397.058349609375,
+                114.42923736572266
+              ],
+              "right_xy_px": [
+                1211.3231201171875,
+                350.12689208984375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1396.7659912109375,
+                474.3352355957031
+              ],
+              "right_xy_px": [
+                1159.1593017578125,
+                517.732666015625
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1374.3404541015625,
+                96.96333312988281
+              ],
+              "right_xy_px": [
+                1142.3475341796875,
+                528.067138671875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1230.526123046875,
+                755.9485473632812
+              ],
+              "right_xy_px": [
+                1161.369873046875,
+                503.4476013183594
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1232.560302734375,
+                763.0521240234375
+              ],
+              "right_xy_px": [
+                1210.118896484375,
+                537.7681274414062
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1282.4591064453125,
+                208.14837646484375
+              ],
+              "right_xy_px": [
+                1326.5899658203125,
+                732.08740234375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1296.943603515625,
+                591.8023681640625
+              ],
+              "right_xy_px": [
+                1322.90478515625,
+                578.502685546875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1301.60009765625,
+                218.67669677734375
+              ],
+              "right_xy_px": [
+                1295.0811767578125,
+                357.5429992675781
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1398.4315185546875,
+                348.94647216796875
+              ],
+              "right_xy_px": [
+                1157.632080078125,
+                614.8115844726562
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1521.695556640625,
+                211.7860107421875
+              ],
+              "right_xy_px": [
+                1418.7816162109375,
+                750.296142578125
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1475.9891357421875,
+                174.3367156982422
+              ],
+              "right_xy_px": [
+                1237.7152099609375,
+                378.9948425292969
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            }
+          ]
+        },
+        {
+          "images": [
+            "0001_google-streetview-2022-position2.png",
+            "0002_google-streetview-2022-position3.png"
+          ],
+          "ratio": 0.7,
+          "mutual_matches": 3,
+          "mutual_with_both_ratio_tests_and_07_distance": 2,
+          "fundamental_inliers": 0,
+          "homography_inliers": 0,
+          "distinct_F_inlier_coordinate_pairs_rounded_1px": 0,
+          "fundamental_matrix": null,
+          "homography_matrix": null,
+          "matches": [
+            {
+              "left_xy_px": [
+                1575.9576416015625,
+                415.19598388671875
+              ],
+              "right_xy_px": [
+                1227.859375,
+                391.5257263183594
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1472.5645751953125,
+                582.203125
+              ],
+              "right_xy_px": [
+                1415.2293701171875,
+                730.0897827148438
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1405.052734375,
+                536.4440307617188
+              ],
+              "right_xy_px": [
+                1237.0811767578125,
+                409.0135498046875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            }
+          ]
+        },
+        {
+          "images": [
+            "0001_google-streetview-2022-position2.png",
+            "0002_google-streetview-2022-position3.png"
+          ],
+          "ratio": 0.8,
+          "mutual_matches": 9,
+          "mutual_with_both_ratio_tests_and_07_distance": 3,
+          "fundamental_inliers": 8,
+          "homography_inliers": 5,
+          "distinct_F_inlier_coordinate_pairs_rounded_1px": 7,
+          "fundamental_matrix": [
+            [
+              -5.62071699364286e-07,
+              4.551833078783249e-07,
+              0.0007036897251637697
+            ],
+            [
+              3.0497134232716078e-06,
+              1.1930670187534215e-06,
+              -0.005322116913603736
+            ],
+            [
+              -0.00041092553186272696,
+              -0.0008497253144996719,
+              1.0
+            ]
+          ],
+          "homography_matrix": [
+            [
+              -5.790361937969698,
+              9.836789300165732,
+              2127.4438251072643
+            ],
+            [
+              -2.0505109185981514,
+              1.9606592523399318,
+              1531.217974752845
+            ],
+            [
+              -0.004139398264659655,
+              0.007936293972778619,
+              1.0
+            ]
+          ],
+          "matches": [
+            {
+              "left_xy_px": [
+                1575.9576416015625,
+                415.19598388671875
+              ],
+              "right_xy_px": [
+                1227.859375,
+                391.5257263183594
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1472.5645751953125,
+                582.203125
+              ],
+              "right_xy_px": [
+                1415.2293701171875,
+                730.0897827148438
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1441.8499755859375,
+                453.85699462890625
+              ],
+              "right_xy_px": [
+                1285.73681640625,
+                391.8567810058594
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1376.496337890625,
+                551.4334716796875
+              ],
+              "right_xy_px": [
+                1302.0107421875,
+                653.5341796875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1436.537841796875,
+                648.914794921875
+              ],
+              "right_xy_px": [
+                1285.553955078125,
+                626.9916381835938
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1405.052734375,
+                536.4440307617188
+              ],
+              "right_xy_px": [
+                1237.0811767578125,
+                409.0135498046875
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1404.8031005859375,
+                680.5310668945312
+              ],
+              "right_xy_px": [
+                1397.4620361328125,
+                696.1531982421875
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1344.0538330078125,
+                482.0602722167969
+              ],
+              "right_xy_px": [
+                1237.7152099609375,
+                378.9948425292969
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1344.0538330078125,
+                482.0602722167969
+              ],
+              "right_xy_px": [
+                1237.7152099609375,
+                378.9948425292969
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            }
+          ],
+          "visualization": "opencv_rootsift-pair2-3-ratio0.8.png"
+        },
+        {
+          "images": [
+            "0001_google-streetview-2022-position2.png",
+            "0002_google-streetview-2022-position3.png"
+          ],
+          "ratio": 0.85,
+          "mutual_matches": 13,
+          "mutual_with_both_ratio_tests_and_07_distance": 5,
+          "fundamental_inliers": 9,
+          "homography_inliers": 5,
+          "distinct_F_inlier_coordinate_pairs_rounded_1px": 8,
+          "fundamental_matrix": [
+            [
+              2.9472963617273654e-07,
+              7.118015145626475e-07,
+              -0.0007712663063021985
+            ],
+            [
+              4.850553970443122e-07,
+              -1.09219239870402e-06,
+              2.4645716452553756e-05
+            ],
+            [
+              -0.000577090109094236,
+              -0.0005012458046018686,
+              1.0
+            ]
+          ],
+          "homography_matrix": [
+            [
+              -2.160283680989555,
+              1.0352622737061432,
+              1992.2126541290706
+            ],
+            [
+              -1.5829749268432154,
+              0.27213023455998137,
+              1870.1823288960995
+            ],
+            [
+              -0.0012992796725482657,
+              0.0008571862715740843,
+              1.0
+            ]
+          ],
+          "matches": [
+            {
+              "left_xy_px": [
+                1575.9576416015625,
+                415.19598388671875
+              ],
+              "right_xy_px": [
+                1227.859375,
+                391.5257263183594
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1532.109130859375,
+                643.8628540039062
+              ],
+              "right_xy_px": [
+                1181.103271484375,
+                668.9930419921875
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1472.5645751953125,
+                582.203125
+              ],
+              "right_xy_px": [
+                1415.2293701171875,
+                730.0897827148438
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1441.8499755859375,
+                453.85699462890625
+              ],
+              "right_xy_px": [
+                1285.73681640625,
+                391.8567810058594
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1439.2825927734375,
+                468.70166015625
+              ],
+              "right_xy_px": [
+                1298.7239990234375,
+                651.571044921875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1418.0208740234375,
+                612.5986938476562
+              ],
+              "right_xy_px": [
+                1201.7559814453125,
+                506.4409484863281
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1376.496337890625,
+                551.4334716796875
+              ],
+              "right_xy_px": [
+                1302.0107421875,
+                653.5341796875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1362.810791015625,
+                618.9828491210938
+              ],
+              "right_xy_px": [
+                1295.5029296875,
+                494.2715759277344
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1436.537841796875,
+                648.914794921875
+              ],
+              "right_xy_px": [
+                1285.553955078125,
+                626.9916381835938
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1405.052734375,
+                536.4440307617188
+              ],
+              "right_xy_px": [
+                1237.0811767578125,
+                409.0135498046875
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1404.8031005859375,
+                680.5310668945312
+              ],
+              "right_xy_px": [
+                1397.4620361328125,
+                696.1531982421875
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1344.0538330078125,
+                482.0602722167969
+              ],
+              "right_xy_px": [
+                1237.7152099609375,
+                378.9948425292969
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1344.0538330078125,
+                482.0602722167969
+              ],
+              "right_xy_px": [
+                1237.7152099609375,
+                378.9948425292969
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            }
+          ],
+          "visualization": "opencv_rootsift-pair2-3-ratio0.85.png"
+        },
+        {
+          "images": [
+            "0001_google-streetview-2022-position2.png",
+            "0002_google-streetview-2022-position3.png"
+          ],
+          "ratio": 0.9,
+          "mutual_matches": 31,
+          "mutual_with_both_ratio_tests_and_07_distance": 13,
+          "fundamental_inliers": 13,
+          "homography_inliers": 6,
+          "distinct_F_inlier_coordinate_pairs_rounded_1px": 12,
+          "fundamental_matrix": [
+            [
+              -4.089566161321473e-08,
+              -7.149033783686049e-07,
+              0.00037819394348148627
+            ],
+            [
+              6.420864952754856e-07,
+              2.5798143075604586e-06,
+              -0.002094241416204068
+            ],
+            [
+              -0.00041511370479052623,
+              -0.0008718262255102971,
+              1.0
+            ]
+          ],
+          "homography_matrix": [
+            [
+              -0.3547427556489065,
+              -1.550311298122597,
+              1205.1833097864903
+            ],
+            [
+              -0.20802145708103598,
+              -0.8978692537999882,
+              706.6154517271648
+            ],
+            [
+              -0.0002700371212567807,
+              -0.0013532932618974835,
+              1.0
+            ]
+          ],
+          "matches": [
+            {
+              "left_xy_px": [
+                1641.696533203125,
+                426.7758483886719
+              ],
+              "right_xy_px": [
+                1317.0787353515625,
+                751.1729125976562
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1628.9730224609375,
+                278.3007507324219
+              ],
+              "right_xy_px": [
+                1179.765869140625,
+                640.67724609375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1621.17138671875,
+                426.8118896484375
+              ],
+              "right_xy_px": [
+                1155.431396484375,
+                658.4959716796875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1580.933837890625,
+                452.15692138671875
+              ],
+              "right_xy_px": [
+                1395.935791015625,
+                701.1922607421875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1575.9576416015625,
+                415.19598388671875
+              ],
+              "right_xy_px": [
+                1227.859375,
+                391.5257263183594
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1538.1060791015625,
+                555.5531005859375
+              ],
+              "right_xy_px": [
+                1418.0057373046875,
+                711.5415649414062
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1533.4678955078125,
+                639.95751953125
+              ],
+              "right_xy_px": [
+                1317.2325439453125,
+                690.4013671875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1532.109130859375,
+                643.8628540039062
+              ],
+              "right_xy_px": [
+                1181.103271484375,
+                668.9930419921875
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1531.1553955078125,
+                623.0811767578125
+              ],
+              "right_xy_px": [
+                1218.50634765625,
+                612.6100463867188
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1528.937255859375,
+                583.8906860351562
+              ],
+              "right_xy_px": [
+                1290.15966796875,
+                699.3241577148438
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1515.0455322265625,
+                642.2005615234375
+              ],
+              "right_xy_px": [
+                1322.314453125,
+                732.4130859375
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1514.714111328125,
+                742.8453369140625
+              ],
+              "right_xy_px": [
+                1167.686767578125,
+                664.8431396484375
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1504.4814453125,
+                514.9320678710938
+              ],
+              "right_xy_px": [
+                1178.23779296875,
+                353.0520324707031
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1472.5645751953125,
+                582.203125
+              ],
+              "right_xy_px": [
+                1415.2293701171875,
+                730.0897827148438
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1441.8499755859375,
+                453.85699462890625
+              ],
+              "right_xy_px": [
+                1285.73681640625,
+                391.8567810058594
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1439.2825927734375,
+                468.70166015625
+              ],
+              "right_xy_px": [
+                1298.7239990234375,
+                651.571044921875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1418.0208740234375,
+                612.5986938476562
+              ],
+              "right_xy_px": [
+                1201.7559814453125,
+                506.4409484863281
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1376.496337890625,
+                551.4334716796875
+              ],
+              "right_xy_px": [
+                1302.0107421875,
+                653.5341796875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1362.810791015625,
+                618.9828491210938
+              ],
+              "right_xy_px": [
+                1295.5029296875,
+                494.2715759277344
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1345.024169921875,
+                512.0054321289062
+              ],
+              "right_xy_px": [
+                1201.5712890625,
+                622.6544799804688
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1333.633056640625,
+                751.5595703125
+              ],
+              "right_xy_px": [
+                1398.626220703125,
+                724.010009765625
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1298.5947265625,
+                559.4125366210938
+              ],
+              "right_xy_px": [
+                1139.525146484375,
+                610.848876953125
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1296.7723388671875,
+                541.5476684570312
+              ],
+              "right_xy_px": [
+                1330.6002197265625,
+                690.87548828125
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1296.6148681640625,
+                533.9763793945312
+              ],
+              "right_xy_px": [
+                1411.4412841796875,
+                721.813232421875
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1461.238037109375,
+                598.27880859375
+              ],
+              "right_xy_px": [
+                1353.1875,
+                673.2258911132812
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1436.537841796875,
+                648.914794921875
+              ],
+              "right_xy_px": [
+                1285.553955078125,
+                626.9916381835938
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1405.052734375,
+                536.4440307617188
+              ],
+              "right_xy_px": [
+                1237.0811767578125,
+                409.0135498046875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1404.8031005859375,
+                680.5310668945312
+              ],
+              "right_xy_px": [
+                1397.4620361328125,
+                696.1531982421875
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": false
+            },
+            {
+              "left_xy_px": [
+                1573.919189453125,
+                467.7066345214844
+              ],
+              "right_xy_px": [
+                1349.9461669921875,
+                702.7660522460938
+              ],
+              "fundamental_inlier": false,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1344.0538330078125,
+                482.0602722167969
+              ],
+              "right_xy_px": [
+                1237.7152099609375,
+                378.9948425292969
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            },
+            {
+              "left_xy_px": [
+                1344.0538330078125,
+                482.0602722167969
+              ],
+              "right_xy_px": [
+                1237.7152099609375,
+                378.9948425292969
+              ],
+              "fundamental_inlier": true,
+              "homography_inlier": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

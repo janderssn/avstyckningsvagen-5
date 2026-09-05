@@ -1,0 +1,368 @@
+{
+  "dataset": "Avstyckningsvägen 5 — three distinct October 2022 Street View positions",
+  "coverage": "Street facade and part of entrance gable/roof; rear and interior absent. Target-only masks exclude neighbor buildings.",
+  "images": [
+    {
+      "file": "../../research/captures/google-streetview-2022-number5-front.png",
+      "source_type": "streetview_perspective",
+      "camera_position_id": "KZQYCThYtHfJkYmDeemB1g",
+      "panorama_id": "KZQYCThYtHfJkYmDeemB1g",
+      "capture_date": "2022-10",
+      "source_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=KZQYCThYtHfJkYmDeemB1g",
+      "camera_lat_lon": [
+        59.4210658,
+        17.800986
+      ],
+      "include_polygons": [
+        [
+          [
+            1205,
+            42
+          ],
+          [
+            1385,
+            62
+          ],
+          [
+            1590,
+            260
+          ],
+          [
+            1300,
+            230
+          ],
+          [
+            1220,
+            150
+          ]
+        ],
+        [
+          [
+            1340,
+            277
+          ],
+          [
+            1550,
+            278
+          ],
+          [
+            1550,
+            794
+          ],
+          [
+            1175,
+            794
+          ],
+          [
+            1175,
+            582
+          ],
+          [
+            1300,
+            545
+          ],
+          [
+            1340,
+            450
+          ]
+        ]
+      ],
+      "exclude_polygons": [],
+      "exclude_rectangles": [
+        [
+          0,
+          0,
+          412,
+          225
+        ],
+        [
+          0,
+          1087,
+          250,
+          1231
+        ],
+        [
+          2387,
+          0,
+          2560,
+          75
+        ],
+        [
+          2475,
+          1050,
+          2560,
+          1231
+        ],
+        [
+          0,
+          1185,
+          2560,
+          1231
+        ]
+      ],
+      "notes": "Only target building included by manual native-pixel polygons; obvious neighbors, most foliage, UI excluded. Intrinsics not calibrated. Roof tile repetition and remaining foliage remain risky."
+    },
+    {
+      "file": "../../research/captures/google-streetview-2022-position2.png",
+      "source_type": "streetview_perspective",
+      "camera_position_id": "kaMdOMVcZiLr7BW5-olmdw",
+      "panorama_id": "kaMdOMVcZiLr7BW5-olmdw",
+      "capture_date": "2022-10",
+      "source_url": "https://www.google.com/maps/@59.421003,17.8008685,20a,90y,90.72h,97.06t/data=!3m7!1e1!3m5!1skaMdOMVcZiLr7BW5-olmdw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-7.0558768480974265%26panoid%3DkaMdOMVcZiLr7BW5-olmdw%26yaw%3D90.72117496703837!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D",
+      "camera_lat_lon": [
+        59.421003,
+        17.8008685
+      ],
+      "include_polygons": [
+        [
+          [
+            1260,
+            520
+          ],
+          [
+            1650,
+            295
+          ],
+          [
+            1700,
+            400
+          ],
+          [
+            1545,
+            735
+          ],
+          [
+            1545,
+            812
+          ],
+          [
+            1335,
+            796
+          ],
+          [
+            1280,
+            686
+          ],
+          [
+            1280,
+            577
+          ]
+        ],
+        [
+          [
+            1612,
+            270
+          ],
+          [
+            1634,
+            262
+          ],
+          [
+            1649,
+            304
+          ],
+          [
+            1620,
+            316
+          ]
+        ]
+      ],
+      "exclude_polygons": [
+        [
+          [
+            1550,
+            500
+          ],
+          [
+            1720,
+            370
+          ],
+          [
+            1720,
+            785
+          ],
+          [
+            1535,
+            735
+          ]
+        ]
+      ],
+      "exclude_rectangles": [
+        [
+          0,
+          0,
+          412,
+          225
+        ],
+        [
+          0,
+          1087,
+          250,
+          1231
+        ],
+        [
+          2387,
+          0,
+          2560,
+          75
+        ],
+        [
+          2475,
+          1050,
+          2560,
+          1231
+        ],
+        [
+          0,
+          1185,
+          2560,
+          1231
+        ]
+      ],
+      "notes": "Only target building included by manual native-pixel polygons; obvious neighbors, most foliage, UI excluded. Intrinsics not calibrated. Roof tile repetition and remaining foliage remain risky."
+    },
+    {
+      "file": "../../research/captures/google-streetview-2022-position3.png",
+      "source_type": "streetview_perspective",
+      "camera_position_id": "jpkHP8P6X6jBUGJ7ZG0uOw",
+      "panorama_id": "jpkHP8P6X6jBUGJ7ZG0uOw",
+      "capture_date": "2022-10",
+      "source_url": "https://www.google.com/maps/@59.4211226,17.8011143,19a,75y,170.4h,97.06t/data=!3m7!1e1!3m5!1sjpkHP8P6X6jBUGJ7ZG0uOw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-7.0558768480974265%26panoid%3DjpkHP8P6X6jBUGJ7ZG0uOw%26yaw%3D170.402675144347!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D",
+      "camera_lat_lon": [
+        59.4211226,
+        17.8011143
+      ],
+      "include_polygons": [
+        [
+          [
+            1102,
+            559
+          ],
+          [
+            1178,
+            328
+          ],
+          [
+            1310,
+            357
+          ],
+          [
+            1300,
+            437
+          ],
+          [
+            1370,
+            526
+          ],
+          [
+            1380,
+            770
+          ],
+          [
+            1310,
+            761
+          ],
+          [
+            1307,
+            680
+          ],
+          [
+            1138,
+            668
+          ],
+          [
+            1140,
+            563
+          ]
+        ],
+        [
+          [
+            1275,
+            694
+          ],
+          [
+            1437,
+            692
+          ],
+          [
+            1447,
+            768
+          ],
+          [
+            1380,
+            778
+          ]
+        ]
+      ],
+      "exclude_polygons": [
+        [
+          [
+            1320,
+            338
+          ],
+          [
+            1490,
+            300
+          ],
+          [
+            1840,
+            567
+          ],
+          [
+            1810,
+            780
+          ],
+          [
+            1475,
+            820
+          ],
+          [
+            1395,
+            660
+          ],
+          [
+            1400,
+            561
+          ],
+          [
+            1332,
+            526
+          ]
+        ]
+      ],
+      "exclude_rectangles": [
+        [
+          0,
+          0,
+          412,
+          225
+        ],
+        [
+          0,
+          1087,
+          250,
+          1231
+        ],
+        [
+          2387,
+          0,
+          2560,
+          75
+        ],
+        [
+          2475,
+          1050,
+          2560,
+          1231
+        ],
+        [
+          0,
+          1185,
+          2560,
+          1231
+        ]
+      ],
+      "notes": "Only target building included by manual native-pixel polygons; obvious neighbors, most foliage, UI excluded. Intrinsics not calibrated. Roof tile repetition and remaining foliage remain risky."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+# JavaScript dependencies and generated website
+/node_modules/
+/dist/
+/.vite/
+/coverage/
+*.tsbuildinfo
+
+# Local credentials (never needed to run the checked-in model)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Local tools, editor state and logs
+/.agents/
+/.codex/
+/.local/
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# Saved browser sessions and third-party application bundles.
+# Actual map geometry, elevations and source images remain versioned.
+/research/raw/
+/research/archive-2007-dom.txt
+/research/site-opencities.html
+/research/site/raw/*.html
+/research/site/raw/*.js
+/research/site/raw/profile.json
+
+# Reproducible, large photogrammetry intermediates.
+# Keep scripts, input manifests and compact result/audit reports.
+/scripts/photogrammetry/*/images/
+/scripts/photogrammetry/*/masks/
+/scripts/photogrammetry/*/sparse/
+/scripts/photogrammetry/*/dense/
+/scripts/photogrammetry/*/database.db*
+/scripts/photogrammetry/method-audit-*/*.png
+/scripts/photogrammetry/method-audit-*/*.jpg
